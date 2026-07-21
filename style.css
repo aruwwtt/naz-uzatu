@@ -1,153 +1,3109 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <!--metatextblock-->
+        <title>Назым-Qyz Uzatu</title>
+        <meta name="description" content="Тойға шақыру"/>
+        <meta property="og:url" content="https://t-invite.kz/uzzatu_nazym"/>
+        <meta property="og:title" content="Назым-Qyz Uzatu"/>
+        <meta property="og:description" content="Тойға шақыру"/>
+        <meta property="og:type" content="website"/>
+        <meta property="og:image" content="https://static.tildacdn.pro/tild3661-6637-4935-b634-633538633563/ab94020875581ebcca7f.jpg"/>
+        <link rel="canonical" href="https://t-invite.kz/uzzatu_nazym">
+        <!--/metatextblock-->
+        <meta name="format-detection" content="telephone=no"/>
+        <meta http-equiv="x-dns-prefetch-control" content="on">
+        <link rel="dns-prefetch" href="https://ws.tildacdn.com">
+        <link rel="dns-prefetch" href="https://static.tildacdn.pro">
+        <!--favicons-->
+        <link rel="shortcut icon" href="https://static.tildacdn.pro/img/tildafavicon.ico" type="image/x-icon"/>
+        <!--/favicons-->
+        <!-- Assets -->
+        <script src="https://neo.tildacdn.com/js/tilda-fallback-1.0.min.js" async charset="utf-8"></script>
+        <link rel="stylesheet" href="https://static.tildacdn.pro/css/tilda-grid-3.0.min.css" type="text/css" media="all" onerror="this.loaderr='y';"/>
+        <link rel="stylesheet" href="https://static.tildacdn.pro/ws/project7301829/tilda-blocks-page144532143.min.css?t=1779891291" type="text/css" media="all" onerror="this.loaderr='y';"/>
+        <link rel="stylesheet" href="https://static.tildacdn.pro/css/tilda-animation-2.0.min.css" type="text/css" media="all" onerror="this.loaderr='y';"/>
+        <link rel="stylesheet" href="https://static.tildacdn.pro/css/tilda-forms-1.0.min.css" type="text/css" media="all" onerror="this.loaderr='y';"/>
+        <script nomodule src="https://static.tildacdn.pro/js/tilda-polyfill-1.0.min.js" charset="utf-8"></script>
+        <script type="text/javascript">
+            function t_onReady(func) {
+                if (document.readyState != 'loading') {
+                    func();
+                } else {
+                    document.addEventListener('DOMContentLoaded', func);
+                }
+            }
+            function t_onFuncLoad(funcName, okFunc, time) {
+                if (typeof window[funcName] === 'function') {
+                    okFunc();
+                } else {
+                    setTimeout(function() {
+                        t_onFuncLoad(funcName, okFunc, time);
+                    }, (time || 100));
+                }
+            }
+            window.tildaApiServiceRootDomain = "tildacdn.kz";
+            function t396_initialScale(t) {
+                var e = document.getElementById("rec" + t);
+                if (e) {
+                    var i = e.querySelector(".t396__artboard");
+                    if (i) {
+                        window.tn_scale_initial_window_width || (window.tn_scale_initial_window_width = document.documentElement.clientWidth);
+                        var a = window.tn_scale_initial_window_width, r = [], n, l = i.getAttribute("data-artboard-screens");
+                        if (l) {
+                            l = l.split(",");
+                            for (var o = 0; o < l.length; o++)
+                                r[o] = parseInt(l[o], 10)
+                        } else
+                            r = [320, 480, 640, 960, 1200];
+                        for (var o = 0; o < r.length; o++) {
+                            var d = r[o];
+                            a >= d && (n = d)
+                        }
+                        var _ = "edit" === window.allrecords.getAttribute("data-tilda-mode")
+                          , c = "center" === t396_getFieldValue(i, "valign", n, r)
+                          , s = "grid" === t396_getFieldValue(i, "upscale", n, r)
+                          , w = t396_getFieldValue(i, "height_vh", n, r)
+                          , g = t396_getFieldValue(i, "height", n, r)
+                          , u = !!window.opr && !!window.opr.addons || !!window.opera || -1 !== navigator.userAgent.indexOf(" OPR/");
+                        if (!_ && c && !s && !w && g && !u) {
+                            var h = parseFloat((a / n).toFixed(3)), f = [i, i.querySelector(".t396__carrier"), i.querySelector(".t396__filter")], v = Math.floor(parseInt(g, 10) * h) + "px", p;
+                            i.style.setProperty("--initial-scale-height", v);
+                            for (var o = 0; o < f.length; o++)
+                                f[o].style.setProperty("height", "var(--initial-scale-height)");
+                            t396_scaleInitial__getElementsToScale(i).forEach((function(t) {
+                                t.style.zoom = h
+                            }
+                            ))
+                        }
+                    }
+                }
+            }
+            function t396_scaleInitial__getElementsToScale(t) {
+                return t ? Array.prototype.slice.call(t.children).filter((function(t) {
+                    return t && (t.classList.contains("t396__elem") || t.classList.contains("t396__group"))
+                }
+                )) : []
+            }
+            function t396_getFieldValue(t, e, i, a) {
+                var r, n = a[a.length - 1];
+                if (!(r = i === n ? t.getAttribute("data-artboard-" + e) : t.getAttribute("data-artboard-" + e + "-res-" + i)))
+                    for (var l = 0; l < a.length; l++) {
+                        var o = a[l];
+                        if (!(o <= i) && (r = o === n ? t.getAttribute("data-artboard-" + e) : t.getAttribute("data-artboard-" + e + "-res-" + o)))
+                            break
+                    }
+                return r
+            }
+            window.TN_SCALE_INITIAL_VER = "1.0",
+            window.tn_scale_initial_window_width = null;
+        </script>
+        <script src="https://static.tildacdn.pro/js/jquery-1.10.2.min.js" charset="utf-8" onerror="this.loaderr='y';"></script>
+        <script src="https://static.tildacdn.pro/js/tilda-scripts-3.0.min.js" charset="utf-8" defer onerror="this.loaderr='y';"></script>
+        <script src="https://static.tildacdn.pro/ws/project7301829/tilda-blocks-page144532143.min.js?t=1779891291" charset="utf-8" async onerror="this.loaderr='y';"></script>
+        <script src="https://static.tildacdn.pro/js/tilda-lazyload-1.0.min.js" charset="utf-8" async onerror="this.loaderr='y';"></script>
+        <script src="https://static.tildacdn.pro/js/tilda-animation-2.0.min.js" charset="utf-8" async onerror="this.loaderr='y';"></script>
+        <script src="https://static.tildacdn.pro/js/tilda-zero-1.1.min.js" charset="utf-8" async onerror="this.loaderr='y';"></script>
+        <script src="https://static.tildacdn.pro/js/tilda-forms-1.0.min.js" charset="utf-8" async onerror="this.loaderr='y';"></script>
+        <script src="https://static.tildacdn.pro/js/tilda-zero-forms-1.0.min.js" charset="utf-8" async onerror="this.loaderr='y';"></script>
+        <script src="https://static.tildacdn.pro/js/tilda-animation-ext-1.0.min.js" charset="utf-8" async onerror="this.loaderr='y';"></script>
+        <script src="https://static.tildacdn.pro/js/tilda-animation-sbs-1.0.min.js" charset="utf-8" async onerror="this.loaderr='y';"></script>
+        <script src="https://static.tildacdn.pro/js/tilda-zero-scale-1.0.min.js" charset="utf-8" async onerror="this.loaderr='y';"></script>
+        <script src="https://static.tildacdn.pro/js/tilda-zero-fixed-1.0.min.js" charset="utf-8" async onerror="this.loaderr='y';"></script>
+        <script src="https://static.tildacdn.pro/js/tilda-events-1.0.min.js" charset="utf-8" async onerror="this.loaderr='y';"></script>
+        <script type="text/javascript">
+            window.dataLayer = window.dataLayer || [];
+        </script>
+        <script type="text/javascript">
+            (function() {
+                var ttt = 'cebo';
+                var tt = 'oog';
+                var re = new RegExp("bot|g" + tt + "le|yandex|baidu|bing|msn|duckduckbot|teoma|slurp|crawler|spider|robot|crawling|fa" + ttt + "ok","i");
+                if ((re.test(navigator.userAgent)) === false && typeof (sessionStorage) != 'undefined' && sessionStorage.getItem('visited') !== 'y' && document.visibilityState) {
+                    var style = document.createElement('style');
+                    style.type = 'text/css';
+                    style.innerHTML = '@media screen and (min-width: 980px) {.t-records {opacity: 0;}.t-records_animated {-webkit-transition: opacity ease-in-out .2s;-moz-transition: opacity ease-in-out .2s;-o-transition: opacity ease-in-out .2s;transition: opacity ease-in-out .2s;}.t-records.t-records_visible {opacity: 1;}}';
+                    document.getElementsByTagName('head')[0].appendChild(style);
+                    function t_setvisRecs() {
+                        var alr = document.querySelectorAll('.t-records');
+                        Array.prototype.forEach.call(alr, function(el) {
+                            el.classList.add("t-records_animated");
+                        });
+                        setTimeout(function() {
+                            Array.prototype.forEach.call(alr, function(el) {
+                                el.classList.add("t-records_visible");
+                            });
+                            sessionStorage.setItem("visited", "y");
+                        }, 400);
+                    }
+                    document.addEventListener('DOMContentLoaded', t_setvisRecs);
+                }
+            }
+            )();
+        </script>
+    </head>
+    <body class="t-body" style="margin:0;">
+        <!--allrecords-->
+        <div id="allrecords" class="t-records" data-hook="blocks-collection-content-node" data-tilda-project-id="7301829" data-tilda-page-id="144532143" data-tilda-page-alias="uzzatu_nazym" data-tilda-formskey="ffa5b7e755c2c6d3e5794b42d7301829" data-tilda-lazy="yes" data-tilda-root-zone="pro" data-tilda-project-country="KZ">
+            <div id="rec2315714733" class="r t-rec" style=" " data-animationappear="off" data-record-type="396">
+                <!-- T396 -->
+                <style>
+                    #rec2315714733 .t396__artboard {
+                        position: fixed;
+                        width: 100%;
+                        left: 0;
+                        top: 0;
+                        z-index: 990;
+                    }
 
-body {
-    background-color: #f7f4ee; /* Нежный молочно-бежевый фон */
-    font-family: 'Montserrat', sans-serif;
-    color: #4a4a4a;
-    display: flex;
-    justify-content: center;
-}
+                    #rec2315714733 .t396__artboard {
+                        height: 70px;
+                    }
 
-.container {
-    width: 100%;
-    max-width: 480px; /* Эмуляция мобильного экрана */
-    background-color: #fdfbf7;
-    padding: 20px;
-    box-shadow: 0 0 20px rgba(0,0,0,0.05);
-    text-align: center;
-}
+                    #rec2315714733 .t396__filter {
+                        height: 70px;
+                        background-color: rgba(223,223,223,0.5);
+                    }
 
-/* Картинки и Заголовки */
-.decor-img {
-    width: 100%;
-    max-width: 300px;
-    height: auto;
-    margin-bottom: 10px;
-}
+                    #rec2315714733 .t396__carrier {
+                        height: 70px;
+                        background-position: center center;
+                        background-attachment: fixed;
+                        transform: translate3d(0,0,0);
+                        -moz-transform: unset;
+                        background-size: cover;
+                        background-repeat: no-repeat;
+                    }
 
-.sub-title {
-    font-size: 14px;
-    letter-spacing: 3px;
-    font-weight: 400;
-    color: #7a7a7a;
-}
+                    @media screen and (min-width: 1199px) {
+                        #rec2315714733 .t396__carrier-wrapper {
+                            position:absolute;
+                            width: 100%;
+                            height: 100%;
+                            top: 0;
+                            left: 0;
+                            -webkit-clip-path: inset(0 0 0 0);
+                            clip-path: inset(0 0 0 0);
+                        }
 
-.main-title {
-    font-family: 'Cormorant Garamond', serif;
-    font-style: italic;
-    font-size: 48px;
-    color: #3b5336; /* Нежно-зеленый оттенок */
-    margin-bottom: 20px;
-}
+                        #rec2315714733 .t396__carrier {
+                            position: fixed;
+                            display: block;
+                            width: 100%;
+                            height: 100% !important;
+                            top: 0;
+                            left: 0;
+                            background-size: cover;
+                            background-position: center center;
+                            transform: translateZ(0);
+                            will-change: transform;
+                            pointer-events: none;
+                        }
+                    }
 
-/* Секции */
-.section {
-    margin-bottom: 35px;
-}
+                    @media screen and (max-width: 1199px) {
+                        #rec2315714733 .t396__carrier-wrapper {
+                            position:absolute;
+                            width: 100%;
+                            height: 100%;
+                            top: 0;
+                            left: 0;
+                            -webkit-clip-path: inset(0 0 0 0);
+                            clip-path: inset(0 0 0 0);
+                        }
+                    }
 
-.poem {
-    font-family: 'Cormorant Garamond', serif;
-    font-style: italic;
-    font-size: 18px;
-    line-height: 1.6;
-    margin-bottom: 20px;
-}
+                    @media screen and (max-width: 1199px) {
+                        #rec2315714733 .t396__artboard,#rec2315714733 .t396__filter,#rec2315714733 .t396__carrier {
+                        }
 
-.invitation-text h3 {
-    font-size: 13px;
-    letter-spacing: 1px;
-    margin-bottom: 10px;
-}
+                        #rec2315714733 .t396__filter {
+                        }
 
-/* Календарь */
-.calendar-grid {
-    display: grid;
-    grid-template-columns: repeat(7, 1fr);
-    gap: 8px;
-    margin: 20px 0;
-    font-size: 14px;
-}
+                        #rec2315714733 .t396__carrier {
+                            background-attachment: scroll;
+                        }
+                    }
 
-.day-name {
-    font-weight: bold;
-    color: #8a8a8a;
-}
+                    @media screen and (max-width: 959px) {
+                        #rec2315714733 .t396__artboard,#rec2315714733 .t396__filter,#rec2315714733 .t396__carrier {
+                        }
 
-.active-day {
-    border: 2px solid #b8915e; /* Золотисто-бежевый кружок */
-    border-radius: 50%;
-    color: #b8915e;
-    font-weight: bold;
-}
+                        #rec2315714733 .t396__filter {
+                        }
 
-/* Кнопка 2GIS */
-.gis-button {
-    display: inline-block;
-    margin-top: 15px;
-    padding: 12px 20px;
-    background-color: #688560;
-    color: white;
-    text-decoration: none;
-    border-radius: 25px;
-    font-size: 11px;
-    letter-spacing: 1px;
-}
+                        #rec2315714733 .t396__carrier {
+                            background-attachment: scroll;
+                        }
+                    }
 
-/* Форма */
-.rsvp-form {
-    text-align: left;
-    margin-top: 20px;
-}
+                    @media screen and (max-width: 639px) {
+                        #rec2315714733 .t396__artboard,#rec2315714733 .t396__filter,#rec2315714733 .t396__carrier {
+                        }
 
-.form-group {
-    margin-bottom: 15px;
-}
+                        #rec2315714733 .t396__filter {
+                        }
 
-.form-group label {
-    display: block;
-    font-size: 12px;
-    font-weight: bold;
-    margin-bottom: 8px;
-}
+                        #rec2315714733 .t396__carrier {
+                            background-attachment: scroll;
+                        }
+                    }
 
-input[type="text"] {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    background-color: transparent;
-}
+                    @media screen and (max-width: 479px) {
+                        #rec2315714733 .t396__artboard,#rec2315714733 .t396__filter,#rec2315714733 .t396__carrier {
+                            height:90px;
+                        }
 
-.radio-label {
-    display: flex;
-    align-items: center;
-    font-weight: normal !important;
-    margin-bottom: 8px;
-    cursor: pointer;
-}
+                        #rec2315714733 .t396__filter {
+                            background-color: rgba(223,223,223,0);
+                        }
 
-.radio-label input {
-    margin-right: 10px;
-}
+                        #rec2315714733 .t396__carrier {
+                            background-attachment: scroll;
+                        }
+                    }
 
-.submit-btn {
-    width: 100%;
-    padding: 12px;
-    background-color: #3b5336;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    font-size: 14px;
-    cursor: pointer;
-}
+                    #rec2315714733 .tn-elem[data-elem-id="1728670209391"] {
+                        z-index: 3;
+                        top: 368px;
+                        ;left: calc(50% - 600px + 946px);
+                        ;width: 337px;
+                        height: auto;
+                    }
 
-.footer {
-    font-family: 'Cormorant Garamond', serif;
-    font-style: italic;
-    font-size: 20px;
-    margin-top: 30px;
-}
+                    #rec2315714733 .tn-elem.t396__elem--anim-hidden[data-elem-id="1728670209391"] {
+                        opacity: 0;
+                    }
+
+                    #rec2315714733 .tn-elem[data-elem-id="1728670209391"] .tn-atom {
+                        border-radius: 0px 0px 0px 0px;
+                        background-position: center center;
+                        border-width: var(--t396-borderwidth,0);
+                        border-style: var(--t396-borderstyle,solid);
+                        border-color: var(--t396-bordercolor,transparent);
+                        transition: background-color var(--t396-speedhover,0s) ease-in-out,color var(--t396-speedhover,0s) ease-in-out,border-color var(--t396-speedhover,0s) ease-in-out,box-shadow var(--t396-shadowshoverspeed,0.2s) ease-in-out;
+                    }
+
+                    #rec2315714733 .tn-elem[data-elem-id="1728670209391"] .tn-atom__img {
+                        border-radius: 0px 0px 0px 0px;
+                        object-position: center center;
+                    }
+
+                    @media screen and (max-width: 1199px) {
+                        #rec2315714733 .tn-elem[data-elem-id="1728670209391"] {
+                            display:table;
+                            height: auto;
+                        }
+                    }
+
+                    @media screen and (max-width: 959px) {
+                        #rec2315714733 .tn-elem[data-elem-id="1728670209391"] {
+                            display:table;
+                            height: auto;
+                        }
+                    }
+
+                    @media screen and (max-width: 639px) {
+                        #rec2315714733 .tn-elem[data-elem-id="1728670209391"] {
+                            display:table;
+                            height: auto;
+                        }
+                    }
+
+                    @media screen and (max-width: 479px) {
+                        #rec2315714733 .tn-elem[data-elem-id="1728670209391"] {
+                            display:table;
+                            top: -79px;
+                            ;left: calc(50% - 160px + -113px);
+                            ;width: 271px;
+                            height: auto;
+                        }
+                    }
+
+                    #rec2315714733 .tn-elem[data-elem-id="1728670209385"] {
+                        z-index: 3;
+                        top: 477px;
+                        ;left: calc(50% - 600px + 650px);
+                        ;width: 200px;
+                        height: auto;
+                    }
+
+                    #rec2315714733 .tn-elem[data-elem-id="1728670209385"] .tn-atom {
+                        border-radius: 0px 0px 0px 0px;
+                        background-position: center center;
+                        border-width: var(--t396-borderwidth,0);
+                        border-style: var(--t396-borderstyle,solid);
+                        border-color: var(--t396-bordercolor,transparent);
+                        transition: background-color var(--t396-speedhover,0s) ease-in-out,color var(--t396-speedhover,0s) ease-in-out,border-color var(--t396-speedhover,0s) ease-in-out,box-shadow var(--t396-shadowshoverspeed,0.2s) ease-in-out;
+                    }
+
+                    #rec2315714733 .tn-elem[data-elem-id="1728670209385"] .tn-atom__img {
+                        border-radius: 0px 0px 0px 0px;
+                        object-position: center center;
+                    }
+
+                    @media screen and (max-width: 1199px) {
+                        #rec2315714733 .tn-elem[data-elem-id="1728670209385"] {
+                            display:table;
+                            height: auto;
+                        }
+                    }
+
+                    @media screen and (max-width: 959px) {
+                        #rec2315714733 .tn-elem[data-elem-id="1728670209385"] {
+                            display:table;
+                            height: auto;
+                        }
+                    }
+
+                    @media screen and (max-width: 639px) {
+                        #rec2315714733 .tn-elem[data-elem-id="1728670209385"] {
+                            display:table;
+                            height: auto;
+                        }
+                    }
+
+                    @media screen and (max-width: 479px) {
+                        #rec2315714733 .tn-elem[data-elem-id="1728670209385"] {
+                            display:table;
+                            top: 18px;
+                            ;left: calc(50% - 160px + -1px);
+                            ;width: 47px;
+                            height: auto;
+                        }
+                    }
+
+                    #rec2315714733 .tn-elem[data-elem-id="1728670209375"] {
+                        z-index: 3;
+                        top: 396px;
+                        ;left: calc(50% - 600px + 780px);
+                        ;width: 200px;
+                        height: auto;
+                    }
+
+                    #rec2315714733 .tn-elem[data-elem-id="1728670209375"] .tn-atom {
+                        border-radius: 0px 0px 0px 0px;
+                        background-position: center center;
+                        border-width: var(--t396-borderwidth,0);
+                        border-style: var(--t396-borderstyle,solid);
+                        border-color: var(--t396-bordercolor,transparent);
+                        transition: background-color var(--t396-speedhover,0s) ease-in-out,color var(--t396-speedhover,0s) ease-in-out,border-color var(--t396-speedhover,0s) ease-in-out,box-shadow var(--t396-shadowshoverspeed,0.2s) ease-in-out;
+                    }
+
+                    #rec2315714733 .tn-elem[data-elem-id="1728670209375"] .tn-atom__img {
+                        border-radius: 0px 0px 0px 0px;
+                        object-position: center center;
+                    }
+
+                    @media screen and (max-width: 1199px) {
+                        #rec2315714733 .tn-elem[data-elem-id="1728670209375"] {
+                            display:table;
+                            height: auto;
+                        }
+                    }
+
+                    @media screen and (max-width: 959px) {
+                        #rec2315714733 .tn-elem[data-elem-id="1728670209375"] {
+                            display:table;
+                            height: auto;
+                        }
+                    }
+
+                    @media screen and (max-width: 639px) {
+                        #rec2315714733 .tn-elem[data-elem-id="1728670209375"] {
+                            display:table;
+                            height: auto;
+                        }
+                    }
+
+                    @media screen and (max-width: 479px) {
+                        #rec2315714733 .tn-elem[data-elem-id="1728670209375"] {
+                            display:table;
+                            top: 18px;
+                            ;left: calc(50% - 160px + -1px);
+                            ;width: 47px;
+                            height: auto;
+                        }
+                    }
+                </style>
+                <div class='t396'>
+                    <div class="t396__artboard" data-artboard-recid="2315714733" data-artboard-screens="320,480,640,960,1200" data-artboard-height="70" data-artboard-valign="center" data-artboard-upscale="grid" data-artboard-pos="fixed" data-artboard-fixed-need-js="y" data-artboard-height-res-320="90">
+                        <div class="t396__carrier-wrapper">
+                            <div class="t396__carrier" data-artboard-recid="2315714733"></div>
+                        </div>
+                        <div class="t396__filter" data-artboard-recid="2315714733"></div>
+                        <div class='t396__elem tn-elem tn-elem__23157147331728670209391 ' data-elem-id='1728670209391' data-elem-type='image' data-field-top-value="368" data-field-left-value="946" data-field-height-value="300" data-field-width-value="337" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value="px" data-field-widthunits-value="px" data-animate-mobile="y" data-animate-sbs-event="intoview" data-animate-sbs-trg="1" data-animate-sbs-trgofst="0" data-animate-sbs-loop="loop" data-animate-sbs-opts="[{'ti':0,'mx':0,'my':0,'sx':1,'sy':1,'op':1,'ro':0,'bl':'0','ea':'','dt':0}]" data-field-filewidth-value="442" data-field-fileheight-value="394" data-field-heightmode-value="hug" data-field-top-res-320-value="-79" data-field-left-res-320-value="-113" data-field-height-res-320-value="242" data-field-width-res-320-value="271" data-animate-sbs-opts-res-320="[{'ti':'0','mx':'0','my':'0','sx':'1','sy':'1','op':'1','ro':'0','bl':'0','ea':'','dt':'0'},{'ti':15000,'mx':'0','my':'0','sx':1,'sy':1,'op':'1','ro':360,'bl':'0','ea':'','dt':'0'}]">
+                            <div class='tn-atom'>
+                                <img class='tn-atom__img t-img' data-original='https://static.tildacdn.pro/tild3634-3163-4434-a239-306138346239/photo.png' src='https://thb.tildacdn.pro/tild3634-3163-4434-a239-306138346239/-/resize/20x/photo.png' alt='' imgfield='tn_img_1728670209391'/>
+                            </div>
+                        </div>
+                        <div class='t396__elem tn-elem stopbgmusic tn-elem__23157147331728670209385' data-elem-id='1728670209385' data-elem-type='image' data-field-top-value="477" data-field-left-value="650" data-field-height-value="200" data-field-width-value="200" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value="px" data-field-widthunits-value="px" data-field-filewidth-value="512" data-field-fileheight-value="512" data-field-lazyoff-value="y" data-field-heightmode-value="hug" data-field-top-res-320-value="18" data-field-left-res-320-value="-1" data-field-height-res-320-value="47" data-field-width-res-320-value="47">
+                            <div class='tn-atom'>
+                                <img class='tn-atom__img' src='https://static.tildacdn.pro/tild6138-3934-4231-b866-383964373464/free-icon-pause-butt.png' alt='' imgfield='tn_img_1728670209385'/>
+                            </div>
+                        </div>
+                        <div class='t396__elem tn-elem playbgmusic tn-elem__23157147331728670209375' data-elem-id='1728670209375' data-elem-type='image' data-field-top-value="396" data-field-left-value="780" data-field-height-value="200" data-field-width-value="200" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value="px" data-field-widthunits-value="px" data-field-filewidth-value="512" data-field-fileheight-value="512" data-field-lazyoff-value="y" data-field-heightmode-value="hug" data-field-top-res-320-value="18" data-field-left-res-320-value="-1" data-field-height-res-320-value="47" data-field-width-res-320-value="47">
+                            <div class='tn-atom'>
+                                <img class='tn-atom__img' src='https://static.tildacdn.pro/tild3138-3237-4336-a362-613963336663/free-icon-play-butto.png' alt='' imgfield='tn_img_1728670209375'/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <script>
+                    t_onReady(function() {
+                        t_onFuncLoad('t396_init', function() {
+                            t396_init('2315714733');
+                        });
+                    });
+                </script>
+                <!-- /T396 -->
+            </div>
+            <div id="rec2315714743" class="r t-rec t-rec_pb_0 t-screenmax-640px" style="padding-bottom:0px; " data-animationappear="off" data-record-type="396" data-screen-max="640px">
+                <!-- T396 -->
+                <style>
+                    #rec2315714743 .t396__artboard {
+                        height: 700px;
+                        background-color: #ffffff;
+                    }
+
+                    #rec2315714743 .t396__filter {
+                        height: 700px;
+                    }
+
+                    #rec2315714743 .t396__carrier {
+                        height: 700px;
+                        background-position: center center;
+                        background-attachment: scroll;
+                        background-size: cover;
+                        background-repeat: no-repeat;
+                    }
+
+                    @media screen and (max-width: 1199px) {
+                        #rec2315714743 .t396__artboard,#rec2315714743 .t396__filter,#rec2315714743 .t396__carrier {
+                        }
+
+                        #rec2315714743 .t396__filter {
+                        }
+
+                        #rec2315714743 .t396__carrier {
+                            background-attachment: scroll;
+                        }
+                    }
+
+                    @media screen and (max-width: 959px) {
+                        #rec2315714743 .t396__artboard,#rec2315714743 .t396__filter,#rec2315714743 .t396__carrier {
+                        }
+
+                        #rec2315714743 .t396__filter {
+                        }
+
+                        #rec2315714743 .t396__carrier {
+                            background-attachment: scroll;
+                        }
+                    }
+
+                    @media screen and (max-width: 639px) {
+                        #rec2315714743 .t396__artboard,#rec2315714743 .t396__filter,#rec2315714743 .t396__carrier {
+                        }
+
+                        #rec2315714743 .t396__filter {
+                        }
+
+                        #rec2315714743 .t396__carrier {
+                            background-attachment: scroll;
+                        }
+                    }
+
+                    @media screen and (max-width: 479px) {
+                        #rec2315714743 .t396__artboard,#rec2315714743 .t396__filter,#rec2315714743 .t396__carrier {
+                            height:750px;
+                        }
+
+                        #rec2315714743 .t396__artboard {
+                            background-color: transparent;
+                            background-image: none;
+                        }
+
+                        #rec2315714743 .t396__filter {
+                        }
+
+                        #rec2315714743 .t396__carrier {
+                            background-position: 100.000% 100.000%;
+                            background-image: url('https://static.tildacdn.pro/tild3934-3939-4363-a339-333766643764/5445048242837512299.jpg');
+                            background-attachment: scroll;
+                        }
+                    }
+
+                    #rec2315714743 .tn-elem[data-elem-id="1728667221924"] {
+                        color: #000000;
+                        z-index: 3;
+                        top: 20px;
+                        ;left: calc(50% - 600px + 177px);
+                        ;width: 560px;
+                        height: auto;
+                    }
+
+                    #rec2315714743 .tn-elem[data-elem-id="1728667221924"] .tn-atom {
+                        vertical-align: middle;
+                        color: #000000;
+                        font-size: 20px;
+                        font-family: var(--t-text-font,Arial);
+                        line-height: 1.55;
+                        font-weight: 900;
+                        background-position: center center;
+                        border-width: var(--t396-borderwidth,0);
+                        border-style: var(--t396-borderstyle,solid);
+                        border-color: var(--t396-bordercolor,transparent);
+                        transition: background-color var(--t396-speedhover,0s) ease-in-out,color var(--t396-speedhover,0s) ease-in-out,border-color var(--t396-speedhover,0s) ease-in-out,box-shadow var(--t396-shadowshoverspeed,0.2s) ease-in-out;
+                        --t396-shadow-text-opacity: 100%;
+                        text-shadow: var(--t396-shadow-text-x,0px) var(--t396-shadow-text-y,0px) var(--t396-shadow-text-blur,0px) rgba(var(--t396-shadow-text-color),var(--t396-shadow-text-opacity,100%));
+                    }
+
+                    @media screen and (max-width: 1199px) {
+                        #rec2315714743 .tn-elem[data-elem-id="1728667221924"] {
+                            display:table;
+                            width: px;
+                            height: auto;
+                        }
+
+                        #rec2315714743 .tn-elem[data-elem-id="1728667221924"] .tn-atom {
+                            white-space: normal;
+                            background-size: cover;
+                        }
+                    }
+
+                    @media screen and (max-width: 959px) {
+                        #rec2315714743 .tn-elem[data-elem-id="1728667221924"] {
+                            display:table;
+                            width: px;
+                            height: auto;
+                        }
+
+                        #rec2315714743 .tn-elem[data-elem-id="1728667221924"] .tn-atom {
+                            white-space: normal;
+                            background-size: cover;
+                        }
+                    }
+
+                    @media screen and (max-width: 639px) {
+                        #rec2315714743 .tn-elem[data-elem-id="1728667221924"] {
+                            display:table;
+                            width: px;
+                            height: auto;
+                        }
+
+                        #rec2315714743 .tn-elem[data-elem-id="1728667221924"] .tn-atom {
+                            white-space: normal;
+                            background-size: cover;
+                        }
+                    }
+
+                    @media screen and (max-width: 479px) {
+                        #rec2315714743 .tn-elem[data-elem-id="1728667221924"] {
+                            display:table;
+                            top: 331px;
+                            ;left: calc(50% - 160px + -162px);
+                            ;width: 560px;
+                            height: auto;
+                            color: #456754;
+                            text-align: center;
+                        }
+
+                        #rec2315714743 .tn-elem[data-elem-id="1728667221924"] .tn-atom {
+                            color: #456754;
+                            white-space: normal;
+                            font-size: 91px;
+                            background-size: cover;
+                        }
+                    }
+
+                    #rec2315714743 .tn-elem[data-elem-id="1727150520029"] {
+                        z-index: 3;
+                        top: 20px;
+                        ;left: calc(50% - 600px + 20px);
+                        ;width: 200px;
+                        height: auto;
+                    }
+
+                    #rec2315714743 .tn-elem[data-elem-id="1727150520029"] .tn-atom {
+                        border-radius: 0px 0px 0px 0px;
+                        background-position: center center;
+                        border-width: var(--t396-borderwidth,0);
+                        border-style: var(--t396-borderstyle,solid);
+                        border-color: var(--t396-bordercolor,transparent);
+                        transition: background-color var(--t396-speedhover,0s) ease-in-out,color var(--t396-speedhover,0s) ease-in-out,border-color var(--t396-speedhover,0s) ease-in-out,box-shadow var(--t396-shadowshoverspeed,0.2s) ease-in-out;
+                    }
+
+                    #rec2315714743 .tn-elem[data-elem-id="1727150520029"] .tn-atom__img {
+                        border-radius: 0px 0px 0px 0px;
+                        object-position: center center;
+                    }
+
+                    @media (min-width: 1200px) {
+                        #rec2315714743 .tn-elem.t396__elem--anim-hidden[data-elem-id="1727150520029"] {
+                            opacity:0;
+                        }
+                    }
+
+                    @media screen and (max-width: 1199px) {
+                        #rec2315714743 .tn-elem[data-elem-id="1727150520029"] {
+                            display:table;
+                            height: auto;
+                        }
+                    }
+
+                    @media screen and (max-width: 959px) {
+                        #rec2315714743 .tn-elem[data-elem-id="1727150520029"] {
+                            display:table;
+                            height: auto;
+                        }
+                    }
+
+                    @media screen and (max-width: 639px) {
+                        #rec2315714743 .tn-elem[data-elem-id="1727150520029"] {
+                            display:table;
+                            height: auto;
+                        }
+                    }
+
+                    @media screen and (max-width: 479px) {
+                        #rec2315714743 .tn-elem[data-elem-id="1727150520029"] {
+                            display:table;
+                            top: 0px;
+                            ;left: calc(50% - 160px + 198px);
+                            ;width: 129px;
+                            height: auto;
+                        }
+
+                        #rec2315714743 .tn-elem[data-elem-id="1727150520029"] .tn-atom {
+                            background-size: cover;
+                            -webkit-transform: rotate(0deg);
+                            -moz-transform: rotate(0deg);
+                            transform: rotate(0deg);
+                        }
+                    }
+
+                    #rec2315714743 .tn-elem[data-elem-id="1727150598098"] {
+                        z-index: 3;
+                        top: 20px;
+                        ;left: calc(50% - 600px + 20px);
+                        ;width: 200px;
+                        height: auto;
+                    }
+
+                    #rec2315714743 .tn-elem[data-elem-id="1727150598098"] .tn-atom {
+                        border-radius: 0px 0px 0px 0px;
+                        background-position: center center;
+                        border-width: var(--t396-borderwidth,0);
+                        border-style: var(--t396-borderstyle,solid);
+                        border-color: var(--t396-bordercolor,transparent);
+                        transition: background-color var(--t396-speedhover,0s) ease-in-out,color var(--t396-speedhover,0s) ease-in-out,border-color var(--t396-speedhover,0s) ease-in-out,box-shadow var(--t396-shadowshoverspeed,0.2s) ease-in-out;
+                    }
+
+                    #rec2315714743 .tn-elem[data-elem-id="1727150598098"] .tn-atom__img {
+                        border-radius: 0px 0px 0px 0px;
+                        object-position: center center;
+                    }
+
+                    @media screen and (max-width: 1199px) {
+                        #rec2315714743 .tn-elem[data-elem-id="1727150598098"] {
+                            display:table;
+                            height: auto;
+                        }
+                    }
+
+                    @media screen and (max-width: 959px) {
+                        #rec2315714743 .tn-elem[data-elem-id="1727150598098"] {
+                            display:table;
+                            height: auto;
+                        }
+                    }
+
+                    @media screen and (max-width: 639px) {
+                        #rec2315714743 .tn-elem[data-elem-id="1727150598098"] {
+                            display:table;
+                            height: auto;
+                        }
+                    }
+
+                    @media screen and (max-width: 479px) {
+                        #rec2315714743 .tn-elem[data-elem-id="1727150598098"] {
+                            display:table;
+                            top: 547px;
+                            ;left: calc(50% - 160px + -78px);
+                            ;width: 335px;
+                            height: auto;
+                        }
+                    }
+
+                    #rec2315714743 .tn-elem[data-elem-id="1727151101886"] {
+                        z-index: 3;
+                        top: 20px;
+                        ;left: calc(50% - 600px + 20px);
+                        ;width: 200px;
+                        height: auto;
+                    }
+
+                    #rec2315714743 .tn-elem[data-elem-id="1727151101886"] .tn-atom {
+                        border-radius: 0px 0px 0px 0px;
+                        background-position: center center;
+                        border-width: var(--t396-borderwidth,0);
+                        border-style: var(--t396-borderstyle,solid);
+                        border-color: var(--t396-bordercolor,transparent);
+                        transition: background-color var(--t396-speedhover,0s) ease-in-out,color var(--t396-speedhover,0s) ease-in-out,border-color var(--t396-speedhover,0s) ease-in-out,box-shadow var(--t396-shadowshoverspeed,0.2s) ease-in-out;
+                    }
+
+                    #rec2315714743 .tn-elem[data-elem-id="1727151101886"] .tn-atom__img {
+                        border-radius: 0px 0px 0px 0px;
+                        object-position: center center;
+                    }
+
+                    @media screen and (max-width: 1199px) {
+                        #rec2315714743 .tn-elem[data-elem-id="1727151101886"] {
+                            display:table;
+                            height: auto;
+                        }
+                    }
+
+                    @media screen and (max-width: 959px) {
+                        #rec2315714743 .tn-elem[data-elem-id="1727151101886"] {
+                            display:table;
+                            height: auto;
+                        }
+                    }
+
+                    @media screen and (max-width: 639px) {
+                        #rec2315714743 .tn-elem[data-elem-id="1727151101886"] {
+                            display:table;
+                            height: auto;
+                        }
+                    }
+
+                    @media screen and (max-width: 479px) {
+                        #rec2315714743 .tn-elem[data-elem-id="1727151101886"] {
+                            display:table;
+                            top: 317px;
+                            ;left: calc(50% - 160px + 150px);
+                            ;width: 165px;
+                            height: auto;
+                        }
+                    }
+                </style>
+                <div class='t396'>
+                    <div class="t396__artboard" data-artboard-recid="2315714743" data-artboard-screens="320,480,640,960,1200" data-artboard-height="700" data-artboard-valign="center" data-artboard-upscale="grid" data-artboard-fixed-need-js="y" data-artboard-height-res-320="750">
+                        <div class="t396__carrier" data-artboard-recid="2315714743"></div>
+                        <div class="t396__filter" data-artboard-recid="2315714743"></div>
+                        <div class='t396__elem tn-elem tn-elem__23157147431728667221924 t-animate' data-elem-id='1728667221924' data-elem-type='text' data-field-top-value="20" data-field-left-value="177" data-field-height-value="31" data-field-width-value="560" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value="px" data-field-widthunits-value="px" data-animate-style="zoomin" data-animate-duration="2.1" data-animate-scale="0.9" data-animate-mobile="y" data-field-textfit-value="autoheight" data-field-fontsize-value="20" data-field-top-res-320-value="331" data-field-left-res-320-value="-162" data-field-height-res-320-value="135" data-field-width-res-320-value="560" data-field-fontsize-res-320-value="91">
+                            <div class='tn-atom' field='tn_text_1728667221924'>Назым</div>
+                        </div>
+                        <div class='t396__elem tn-elem tn-elem__23157147431727150520029 ' data-elem-id='1727150520029' data-elem-type='image' data-field-top-value="20" data-field-left-value="20" data-field-height-value="158" data-field-width-value="200" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value="px" data-field-widthunits-value="px" data-animate-sbs-event="intoview" data-animate-sbs-trg="0.5" data-animate-sbs-trgofst="0" data-animate-sbs-loop="loop" data-animate-sbs-opts="[{'mx':0,'my':0,'sx':1,'sy':1,'op':1,'ro':0,'ti':0,'ea':'0','dt':0}]" data-field-filewidth-value="1212" data-field-fileheight-value="960" data-field-heightmode-value="hug" data-field-top-res-320-value="0" data-field-left-res-320-value="198" data-field-height-res-320-value="102" data-field-width-res-320-value="129" data-animate-sbs-opts-res-320="[{'mx':'0','my':'0','sx':'1','sy':'1','op':'1','ro':'0','ti':'0','ea':'0','dt':'0'},{'mx':'0','my':'0','sx':'1','sy':'1','op':'1','ro':'0','ti':2000,'ea':'0','dt':'0'},{'mx':-98,'my':64,'sx':'1','sy':'1','op':'1','ro':'0','ti':2000,'ea':'0','dt':'0'},{'mx':-98,'my':64,'sx':'1','sy':'1','op':'1','ro':'0','ti':2000,'ea':'0','dt':'0'},{'mx':-60,'my':109,'sx':'1','sy':'1','op':'1','ro':'0','ti':2000,'ea':'0','dt':'0'},{'mx':-60,'my':109,'sx':'1','sy':'1','op':'1','ro':'0','ti':2000,'ea':'0','dt':'0'},{'mx':-29,'my':6,'sx':'1','sy':'1','op':'1','ro':'0','ti':2000,'ea':'0','dt':'0'}]">
+                            <div class='tn-atom'>
+                                <img class='tn-atom__img t-img' data-original='https://static.tildacdn.pro/tild3630-6336-4635-b462-313861316266/dfacabbcfd088b2f73d8.gif' src='https://thb.tildacdn.pro/tild3630-6336-4635-b462-313861316266/-/resize/20x/dfacabbcfd088b2f73d8.gif' alt='' imgfield='tn_img_1727150520029'/>
+                            </div>
+                        </div>
+                        <div class='t396__elem tn-elem tn-elem__23157147431727150598098' data-elem-id='1727150598098' data-elem-type='image' data-field-top-value="20" data-field-left-value="20" data-field-height-value="112" data-field-width-value="200" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value="px" data-field-widthunits-value="px" data-field-filewidth-value="500" data-field-fileheight-value="281" data-field-heightmode-value="hug" data-field-top-res-320-value="547" data-field-left-res-320-value="-78" data-field-height-res-320-value="188" data-field-width-res-320-value="335">
+                            <div class='tn-atom'>
+                                <img class='tn-atom__img t-img' data-original='https://static.tildacdn.pro/tild3635-6361-4534-a239-653530613136/2e93119a6f4a138992c8.gif' src='https://thb.tildacdn.pro/tild3635-6361-4534-a239-653530613136/-/resize/20x/2e93119a6f4a138992c8.gif' alt='' imgfield='tn_img_1727150598098'/>
+                            </div>
+                        </div>
+                        <div class='t396__elem tn-elem tn-elem__23157147431727151101886' data-elem-id='1727151101886' data-elem-type='image' data-field-top-value="20" data-field-left-value="20" data-field-height-value="31" data-field-width-value="200" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value="px" data-field-widthunits-value="px" data-field-filewidth-value="624" data-field-fileheight-value="98" data-field-heightmode-value="hug" data-field-top-res-320-value="317" data-field-left-res-320-value="150" data-field-height-res-320-value="26" data-field-width-res-320-value="165">
+                            <div class='tn-atom'>
+                                <img class='tn-atom__img t-img' data-original='https://static.tildacdn.pro/tild3636-6138-4937-b363-383539386134/Qyz_uzAtu.png' src='https://thb.tildacdn.pro/tild3636-6138-4937-b363-383539386134/-/resize/20x/Qyz_uzAtu.png' alt='' imgfield='tn_img_1727151101886'/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <script>
+                    t_onReady(function() {
+                        t_onFuncLoad('t396_init', function() {
+                            t396_init('2315714743');
+                        });
+                    });
+                </script>
+                <!-- /T396 -->
+            </div>
+            <div id="rec2315714753" class="r t-rec t-rec_pt_30 t-rec_pb_30 t-screenmax-640px" style="padding-top:30px;padding-bottom:30px; " data-record-type="363" data-screen-max="640px">
+                <!-- T029 -->
+                <div class="t029">
+                    <div class="t029__container t-container">
+                        <div class="t029__col t-col t-col_8">
+                            <div class="t029__linewrapper" style="opacity:0.2;">
+                                <div class="t029__opacity t029__opacity_left" style="background-image: linear-gradient(to left, #000000, rgba(0,0,0,0));"></div>
+                                <div class="t-divider t029__line" style="background: #000000;"></div>
+                                <div class="t029__opacity t029__opacity_right" style="background-image: linear-gradient(to right, #000000, rgba(0,0,0,0));"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="rec2315714763" class="r t-rec t-screenmax-640px" style=" " data-animationappear="off" data-record-type="396" data-screen-max="640px">
+                <!-- T396 -->
+                <style>
+                    #rec2315714763 .t396__artboard {
+                        height: 550px;
+                    }
+
+                    #rec2315714763 .t396__filter {
+                        height: 550px;
+                    }
+
+                    #rec2315714763 .t396__carrier {
+                        height: 550px;
+                        background-position: center center;
+                        background-attachment: scroll;
+                        background-size: cover;
+                        background-repeat: no-repeat;
+                    }
+
+                    @media screen and (max-width: 1199px) {
+                        #rec2315714763 .t396__artboard,#rec2315714763 .t396__filter,#rec2315714763 .t396__carrier {
+                        }
+
+                        #rec2315714763 .t396__filter {
+                        }
+
+                        #rec2315714763 .t396__carrier {
+                            background-attachment: scroll;
+                        }
+                    }
+
+                    @media screen and (max-width: 959px) {
+                        #rec2315714763 .t396__artboard,#rec2315714763 .t396__filter,#rec2315714763 .t396__carrier {
+                        }
+
+                        #rec2315714763 .t396__filter {
+                        }
+
+                        #rec2315714763 .t396__carrier {
+                            background-attachment: scroll;
+                        }
+                    }
+
+                    @media screen and (max-width: 639px) {
+                        #rec2315714763 .t396__artboard,#rec2315714763 .t396__filter,#rec2315714763 .t396__carrier {
+                        }
+
+                        #rec2315714763 .t396__filter {
+                        }
+
+                        #rec2315714763 .t396__carrier {
+                            background-attachment: scroll;
+                        }
+                    }
+
+                    @media screen and (max-width: 479px) {
+                        #rec2315714763 .t396__artboard,#rec2315714763 .t396__filter,#rec2315714763 .t396__carrier {
+                            height:3958px;
+                        }
+
+                        #rec2315714763 .t396__artboard {
+                            background-color: transparent;
+                            background-image: none;
+                        }
+
+                        #rec2315714763 .t396__filter {
+                        }
+
+                        #rec2315714763 .t396__carrier {
+                            background-image: unset;
+                            background-attachment: scroll;
+                        }
+                    }
+
+                    #rec2315714763 .tn-elem[data-elem-id="1728670068128"] {
+                        z-index: 3;
+                        top: 683px;
+                        ;left: calc(50% - 600px + -28px);
+                        ;width: 200px;
+                        height: auto;
+                    }
+
+                    #rec2315714763 .tn-elem[data-elem-id="1728670068128"] .tn-atom {
+                        border-radius: 0px 0px 0px 0px;
+                        background-position: center center;
+                        border-width: var(--t396-borderwidth,0);
+                        border-style: var(--t396-borderstyle,solid);
+                        border-color: var(--t396-bordercolor,transparent);
+                        transition: background-color var(--t396-speedhover,0s) ease-in-out,color var(--t396-speedhover,0s) ease-in-out,border-color var(--t396-speedhover,0s) ease-in-out,box-shadow var(--t396-shadowshoverspeed,0.2s) ease-in-out;
+                    }
+
+                    #rec2315714763 .tn-elem[data-elem-id="1728670068128"] .tn-atom__img {
+                        border-radius: 0px 0px 0px 0px;
+                        object-position: center center;
+                    }
+
+                    @media screen and (max-width: 1199px) {
+                        #rec2315714763 .tn-elem[data-elem-id="1728670068128"] {
+                            display:table;
+                            height: auto;
+                        }
+                    }
+
+                    @media screen and (max-width: 959px) {
+                        #rec2315714763 .tn-elem[data-elem-id="1728670068128"] {
+                            display:table;
+                            height: auto;
+                        }
+                    }
+
+                    @media screen and (max-width: 639px) {
+                        #rec2315714763 .tn-elem[data-elem-id="1728670068128"] {
+                            display:table;
+                            height: auto;
+                        }
+                    }
+
+                    @media screen and (max-width: 479px) {
+                        #rec2315714763 .tn-elem[data-elem-id="1728670068128"] {
+                            display:table;
+                            top: 3482px;
+                            ;left: calc(50% - 160px + 90px);
+                            ;width: 319px;
+                            height: auto;
+                        }
+
+                        #rec2315714763 .tn-elem[data-elem-id="1728670068128"] .tn-atom {
+                            background-size: cover;
+                            -webkit-transform: rotate(298deg);
+                            -moz-transform: rotate(298deg);
+                            transform: rotate(298deg);
+                        }
+                    }
+
+                    #rec2315714763 .tn-elem[data-elem-id="1727151530299"] {
+                        z-index: 3;
+                        top: 20px;
+                        ;left: calc(50% - 600px + 20px);
+                        ;width: 200px;
+                        height: auto;
+                    }
+
+                    #rec2315714763 .tn-elem[data-elem-id="1727151530299"] .tn-atom {
+                        border-radius: 0px 0px 0px 0px;
+                        background-position: center center;
+                        border-width: var(--t396-borderwidth,0);
+                        border-style: var(--t396-borderstyle,solid);
+                        border-color: var(--t396-bordercolor,transparent);
+                        transition: background-color var(--t396-speedhover,0s) ease-in-out,color var(--t396-speedhover,0s) ease-in-out,border-color var(--t396-speedhover,0s) ease-in-out,box-shadow var(--t396-shadowshoverspeed,0.2s) ease-in-out;
+                    }
+
+                    #rec2315714763 .tn-elem[data-elem-id="1727151530299"] .tn-atom__img {
+                        border-radius: 0px 0px 0px 0px;
+                        object-position: center center;
+                    }
+
+                    @media screen and (max-width: 1199px) {
+                        #rec2315714763 .tn-elem[data-elem-id="1727151530299"] {
+                            display:table;
+                            height: auto;
+                        }
+                    }
+
+                    @media screen and (max-width: 959px) {
+                        #rec2315714763 .tn-elem[data-elem-id="1727151530299"] {
+                            display:table;
+                            height: auto;
+                        }
+                    }
+
+                    @media screen and (max-width: 639px) {
+                        #rec2315714763 .tn-elem[data-elem-id="1727151530299"] {
+                            display:table;
+                            height: auto;
+                        }
+                    }
+
+                    @media screen and (max-width: 479px) {
+                        #rec2315714763 .tn-elem[data-elem-id="1727151530299"] {
+                            display:table;
+                            top: 365px;
+                            ;left: calc(50% - 160px + 1px);
+                            ;width: 318px;
+                            height: auto;
+                        }
+                    }
+
+                    #rec2315714763 .tn-elem[data-elem-id="1727151586838"] {
+                        color: #000000;
+                        text-align: center;
+                        z-index: 3;
+                        top: 300px;
+                        ;left: calc(50% - 600px + 252px);
+                        ;width: 560px;
+                        height: auto;
+                    }
+
+                    #rec2315714763 .tn-elem[data-elem-id="1727151586838"] .tn-atom {
+                        vertical-align: middle;
+                        color: #000000;
+                        font-size: 18px;
+                        font-family: var(--t-text-font,Arial);
+                        line-height: 1.55;
+                        font-weight: 300;
+                        background-position: center center;
+                        border-width: var(--t396-borderwidth,0);
+                        border-style: var(--t396-borderstyle,solid);
+                        border-color: var(--t396-bordercolor,transparent);
+                        transition: background-color var(--t396-speedhover,0s) ease-in-out,color var(--t396-speedhover,0s) ease-in-out,border-color var(--t396-speedhover,0s) ease-in-out,box-shadow var(--t396-shadowshoverspeed,0.2s) ease-in-out;
+                        --t396-shadow-text-opacity: 100%;
+                        text-shadow: var(--t396-shadow-text-x,0px) var(--t396-shadow-text-y,0px) var(--t396-shadow-text-blur,0px) rgba(var(--t396-shadow-text-color),var(--t396-shadow-text-opacity,100%));
+                    }
+
+                    @media screen and (max-width: 1199px) {
+                        #rec2315714763 .tn-elem[data-elem-id="1727151586838"] {
+                            display:table;
+                            width: px;
+                            height: auto;
+                        }
+
+                        #rec2315714763 .tn-elem[data-elem-id="1727151586838"] .tn-atom {
+                            white-space: normal;
+                            background-size: cover;
+                        }
+                    }
+
+                    @media screen and (max-width: 959px) {
+                        #rec2315714763 .tn-elem[data-elem-id="1727151586838"] {
+                            display:table;
+                            width: px;
+                            height: auto;
+                        }
+
+                        #rec2315714763 .tn-elem[data-elem-id="1727151586838"] .tn-atom {
+                            white-space: normal;
+                            background-size: cover;
+                        }
+                    }
+
+                    @media screen and (max-width: 639px) {
+                        #rec2315714763 .tn-elem[data-elem-id="1727151586838"] {
+                            display:table;
+                            width: px;
+                            height: auto;
+                        }
+
+                        #rec2315714763 .tn-elem[data-elem-id="1727151586838"] .tn-atom {
+                            white-space: normal;
+                            background-size: cover;
+                        }
+                    }
+
+                    @media screen and (max-width: 479px) {
+                        #rec2315714763 .tn-elem[data-elem-id="1727151586838"] {
+                            display:table;
+                            top: 669px;
+                            ;left: calc(50% - 160px + -9px);
+                            ;width: 338px;
+                            height: auto;
+                            color: #000000;
+                        }
+
+                        #rec2315714763 .tn-elem[data-elem-id="1727151586838"] .tn-atom {
+                            color: #000000;
+                            white-space: normal;
+                            background-size: cover;
+                        }
+                    }
+
+                    #rec2315714763 .tn-elem[data-elem-id="1727151619917"] {
+                        color: #000000;
+                        text-align: center;
+                        z-index: 3;
+                        top: 300px;
+                        ;left: calc(50% - 600px + 252px);
+                        ;width: 560px;
+                        height: auto;
+                    }
+
+                    #rec2315714763 .tn-elem[data-elem-id="1727151619917"] .tn-atom {
+                        vertical-align: middle;
+                        color: #000000;
+                        font-size: 18px;
+                        font-family: var(--t-text-font,Arial);
+                        line-height: 1.55;
+                        font-weight: 300;
+                        background-position: center center;
+                        border-width: var(--t396-borderwidth,0);
+                        border-style: var(--t396-borderstyle,solid);
+                        border-color: var(--t396-bordercolor,transparent);
+                        transition: background-color var(--t396-speedhover,0s) ease-in-out,color var(--t396-speedhover,0s) ease-in-out,border-color var(--t396-speedhover,0s) ease-in-out,box-shadow var(--t396-shadowshoverspeed,0.2s) ease-in-out;
+                        --t396-shadow-text-opacity: 100%;
+                        text-shadow: var(--t396-shadow-text-x,0px) var(--t396-shadow-text-y,0px) var(--t396-shadow-text-blur,0px) rgba(var(--t396-shadow-text-color),var(--t396-shadow-text-opacity,100%));
+                    }
+
+                    @media screen and (max-width: 1199px) {
+                        #rec2315714763 .tn-elem[data-elem-id="1727151619917"] {
+                            display:table;
+                            width: px;
+                            height: auto;
+                        }
+
+                        #rec2315714763 .tn-elem[data-elem-id="1727151619917"] .tn-atom {
+                            white-space: normal;
+                            background-size: cover;
+                        }
+                    }
+
+                    @media screen and (max-width: 959px) {
+                        #rec2315714763 .tn-elem[data-elem-id="1727151619917"] {
+                            display:table;
+                            width: px;
+                            height: auto;
+                        }
+
+                        #rec2315714763 .tn-elem[data-elem-id="1727151619917"] .tn-atom {
+                            white-space: normal;
+                            background-size: cover;
+                        }
+                    }
+
+                    @media screen and (max-width: 639px) {
+                        #rec2315714763 .tn-elem[data-elem-id="1727151619917"] {
+                            display:table;
+                            width: px;
+                            height: auto;
+                        }
+
+                        #rec2315714763 .tn-elem[data-elem-id="1727151619917"] .tn-atom {
+                            white-space: normal;
+                            background-size: cover;
+                        }
+                    }
+
+                    @media screen and (max-width: 479px) {
+                        #rec2315714763 .tn-elem[data-elem-id="1727151619917"] {
+                            display:table;
+                            top: 1035px;
+                            ;left: calc(50% - 160px + -1px);
+                            ;width: 322px;
+                            height: auto;
+                            color: #000000;
+                        }
+
+                        #rec2315714763 .tn-elem[data-elem-id="1727151619917"] .tn-atom {
+                            color: #000000;
+                            white-space: normal;
+                            background-size: cover;
+                        }
+                    }
+
+                    #rec2315714763 .tn-elem[data-elem-id="1727151663320"] {
+                        z-index: 3;
+                        top: 287px;
+                        ;left: calc(50% - 600px + -225px);
+                        ;width: 200px;
+                        height: auto;
+                    }
+
+                    #rec2315714763 .tn-elem[data-elem-id="1727151663320"] .tn-atom {
+                        border-radius: 0px 0px 0px 0px;
+                        background-position: center center;
+                        border-width: var(--t396-borderwidth,0);
+                        border-style: var(--t396-borderstyle,solid);
+                        border-color: var(--t396-bordercolor,transparent);
+                        transition: background-color var(--t396-speedhover,0s) ease-in-out,color var(--t396-speedhover,0s) ease-in-out,border-color var(--t396-speedhover,0s) ease-in-out,box-shadow var(--t396-shadowshoverspeed,0.2s) ease-in-out;
+                    }
+
+                    #rec2315714763 .tn-elem[data-elem-id="1727151663320"] .tn-atom__img {
+                        border-radius: 0px 0px 0px 0px;
+                        object-position: center center;
+                    }
+
+                    @media screen and (max-width: 1199px) {
+                        #rec2315714763 .tn-elem[data-elem-id="1727151663320"] {
+                            display:table;
+                            height: auto;
+                        }
+                    }
+
+                    @media screen and (max-width: 959px) {
+                        #rec2315714763 .tn-elem[data-elem-id="1727151663320"] {
+                            display:table;
+                            height: auto;
+                        }
+                    }
+
+                    @media screen and (max-width: 639px) {
+                        #rec2315714763 .tn-elem[data-elem-id="1727151663320"] {
+                            display:table;
+                            height: auto;
+                        }
+                    }
+
+                    @media screen and (max-width: 479px) {
+                        #rec2315714763 .tn-elem[data-elem-id="1727151663320"] {
+                            display:table;
+                            top: 1150px;
+                            ;left: calc(50% - 160px + 150px);
+                            ;width: 226px;
+                            height: auto;
+                        }
+
+                        #rec2315714763 .tn-elem[data-elem-id="1727151663320"] .tn-atom {
+                            background-size: cover;
+                            -webkit-transform: rotate(284deg);
+                            -moz-transform: rotate(284deg);
+                            transform: rotate(284deg);
+                        }
+                    }
+
+                    #rec2315714763 .tn-elem[data-elem-id="1727151683154"] {
+                        z-index: 3;
+                        top: 32px;
+                        ;left: calc(50% - 600px + 507px);
+                        ;width: 200px;
+                        height: auto;
+                    }
+
+                    #rec2315714763 .tn-elem[data-elem-id="1727151683154"] .tn-atom {
+                        border-radius: 0px 0px 0px 0px;
+                        background-position: center center;
+                        border-width: var(--t396-borderwidth,0);
+                        border-style: var(--t396-borderstyle,solid);
+                        border-color: var(--t396-bordercolor,transparent);
+                        transition: background-color var(--t396-speedhover,0s) ease-in-out,color var(--t396-speedhover,0s) ease-in-out,border-color var(--t396-speedhover,0s) ease-in-out,box-shadow var(--t396-shadowshoverspeed,0.2s) ease-in-out;
+                    }
+
+                    #rec2315714763 .tn-elem[data-elem-id="1727151683154"] .tn-atom__img {
+                        border-radius: 0px 0px 0px 0px;
+                        object-position: center center;
+                    }
+
+                    @media screen and (max-width: 1199px) {
+                        #rec2315714763 .tn-elem[data-elem-id="1727151683154"] {
+                            display:table;
+                            height: auto;
+                        }
+                    }
+
+                    @media screen and (max-width: 959px) {
+                        #rec2315714763 .tn-elem[data-elem-id="1727151683154"] {
+                            display:table;
+                            height: auto;
+                        }
+                    }
+
+                    @media screen and (max-width: 639px) {
+                        #rec2315714763 .tn-elem[data-elem-id="1727151683154"] {
+                            display:table;
+                            height: auto;
+                        }
+                    }
+
+                    @media screen and (max-width: 479px) {
+                        #rec2315714763 .tn-elem[data-elem-id="1727151683154"] {
+                            display:table;
+                            top: 1273px;
+                            ;left: calc(50% - 160px + 250px);
+                            ;width: 100px;
+                            height: auto;
+                        }
+                    }
+
+                    #rec2315714763 .tn-elem[data-elem-id="1727151718365"] {
+                        z-index: 3;
+                        top: 20px;
+                        ;left: calc(50% - 600px + 20px);
+                        ;width: 200px;
+                        height: auto;
+                    }
+
+                    #rec2315714763 .tn-elem[data-elem-id="1727151718365"] .tn-atom {
+                        border-radius: 0px 0px 0px 0px;
+                        background-position: center center;
+                        border-width: var(--t396-borderwidth,0);
+                        border-style: var(--t396-borderstyle,solid);
+                        border-color: var(--t396-bordercolor,transparent);
+                        transition: background-color var(--t396-speedhover,0s) ease-in-out,color var(--t396-speedhover,0s) ease-in-out,border-color var(--t396-speedhover,0s) ease-in-out,box-shadow var(--t396-shadowshoverspeed,0.2s) ease-in-out;
+                    }
+
+                    #rec2315714763 .tn-elem[data-elem-id="1727151718365"] .tn-atom__img {
+                        border-radius: 0px 0px 0px 0px;
+                        object-position: center center;
+                    }
+
+                    @media screen and (max-width: 1199px) {
+                        #rec2315714763 .tn-elem[data-elem-id="1727151718365"] {
+                            display:table;
+                            height: auto;
+                        }
+                    }
+
+                    @media screen and (max-width: 959px) {
+                        #rec2315714763 .tn-elem[data-elem-id="1727151718365"] {
+                            display:table;
+                            height: auto;
+                        }
+                    }
+
+                    @media screen and (max-width: 639px) {
+                        #rec2315714763 .tn-elem[data-elem-id="1727151718365"] {
+                            display:table;
+                            height: auto;
+                        }
+                    }
+
+                    @media screen and (max-width: 479px) {
+                        #rec2315714763 .tn-elem[data-elem-id="1727151718365"] {
+                            display:table;
+                            top: 1456px;
+                            ;left: calc(50% - 160px + 31px);
+                            ;width: 259px;
+                            height: auto;
+                        }
+                    }
+
+                    #rec2315714763 .tn-elem[data-elem-id="1727151734664"] {
+                        z-index: 3;
+                        top: 334px;
+                        ;left: calc(50% - 600px + -354px);
+                        ;width: 200px;
+                        height: auto;
+                    }
+
+                    #rec2315714763 .tn-elem[data-elem-id="1727151734664"] .tn-atom {
+                        border-radius: 0px 0px 0px 0px;
+                        background-position: center center;
+                        border-width: var(--t396-borderwidth,0);
+                        border-style: var(--t396-borderstyle,solid);
+                        border-color: var(--t396-bordercolor,transparent);
+                        transition: background-color var(--t396-speedhover,0s) ease-in-out,color var(--t396-speedhover,0s) ease-in-out,border-color var(--t396-speedhover,0s) ease-in-out,box-shadow var(--t396-shadowshoverspeed,0.2s) ease-in-out;
+                    }
+
+                    #rec2315714763 .tn-elem[data-elem-id="1727151734664"] .tn-atom__img {
+                        border-radius: 0px 0px 0px 0px;
+                        object-position: center center;
+                    }
+
+                    @media screen and (max-width: 1199px) {
+                        #rec2315714763 .tn-elem[data-elem-id="1727151734664"] {
+                            display:table;
+                            height: auto;
+                        }
+                    }
+
+                    @media screen and (max-width: 959px) {
+                        #rec2315714763 .tn-elem[data-elem-id="1727151734664"] {
+                            display:table;
+                            height: auto;
+                        }
+                    }
+
+                    @media screen and (max-width: 639px) {
+                        #rec2315714763 .tn-elem[data-elem-id="1727151734664"] {
+                            display:table;
+                            height: auto;
+                        }
+                    }
+
+                    @media screen and (max-width: 479px) {
+                        #rec2315714763 .tn-elem[data-elem-id="1727151734664"] {
+                            display:table;
+                            top: 1515px;
+                            ;left: calc(50% - 160px + -10px);
+                            ;width: 341px;
+                            height: auto;
+                        }
+                    }
+
+                    #rec2315714763 .tn-elem[data-elem-id="1727151734660"] {
+                        color: #000000;
+                        text-align: center;
+                        z-index: 3;
+                        top: 300px;
+                        ;left: calc(50% - 600px + 252px);
+                        ;width: 560px;
+                        height: auto;
+                    }
+
+                    #rec2315714763 .tn-elem[data-elem-id="1727151734660"] .tn-atom {
+                        vertical-align: middle;
+                        color: #000000;
+                        font-size: 18px;
+                        font-family: var(--t-text-font,Arial);
+                        line-height: 1.55;
+                        font-weight: 300;
+                        background-position: center center;
+                        border-width: var(--t396-borderwidth,0);
+                        border-style: var(--t396-borderstyle,solid);
+                        border-color: var(--t396-bordercolor,transparent);
+                        transition: background-color var(--t396-speedhover,0s) ease-in-out,color var(--t396-speedhover,0s) ease-in-out,border-color var(--t396-speedhover,0s) ease-in-out,box-shadow var(--t396-shadowshoverspeed,0.2s) ease-in-out;
+                        --t396-shadow-text-opacity: 100%;
+                        text-shadow: var(--t396-shadow-text-x,0px) var(--t396-shadow-text-y,0px) var(--t396-shadow-text-blur,0px) rgba(var(--t396-shadow-text-color),var(--t396-shadow-text-opacity,100%));
+                    }
+
+                    @media screen and (max-width: 1199px) {
+                        #rec2315714763 .tn-elem[data-elem-id="1727151734660"] {
+                            display:table;
+                            width: px;
+                            height: auto;
+                        }
+
+                        #rec2315714763 .tn-elem[data-elem-id="1727151734660"] .tn-atom {
+                            white-space: normal;
+                            background-size: cover;
+                        }
+                    }
+
+                    @media screen and (max-width: 959px) {
+                        #rec2315714763 .tn-elem[data-elem-id="1727151734660"] {
+                            display:table;
+                            width: px;
+                            height: auto;
+                        }
+
+                        #rec2315714763 .tn-elem[data-elem-id="1727151734660"] .tn-atom {
+                            white-space: normal;
+                            background-size: cover;
+                        }
+                    }
+
+                    @media screen and (max-width: 639px) {
+                        #rec2315714763 .tn-elem[data-elem-id="1727151734660"] {
+                            display:table;
+                            width: px;
+                            height: auto;
+                        }
+
+                        #rec2315714763 .tn-elem[data-elem-id="1727151734660"] .tn-atom {
+                            white-space: normal;
+                            background-size: cover;
+                        }
+                    }
+
+                    @media screen and (max-width: 479px) {
+                        #rec2315714763 .tn-elem[data-elem-id="1727151734660"] {
+                            display:table;
+                            top: 1528px;
+                            ;left: calc(50% - 160px + -9px);
+                            ;width: 338px;
+                            height: auto;
+                            color: #000000;
+                        }
+
+                        #rec2315714763 .tn-elem[data-elem-id="1727151734660"] .tn-atom {
+                            color: #000000;
+                            white-space: normal;
+                            font-size: 23px;
+                            background-size: cover;
+                        }
+                    }
+
+                    #rec2315714763 .tn-elem[data-elem-id="1727151746325"] {
+                        color: #000000;
+                        text-align: center;
+                        z-index: 3;
+                        top: 300px;
+                        ;left: calc(50% - 600px + 252px);
+                        ;width: 560px;
+                        height: auto;
+                    }
+
+                    #rec2315714763 .tn-elem[data-elem-id="1727151746325"] .tn-atom {
+                        vertical-align: middle;
+                        color: #000000;
+                        font-size: 18px;
+                        font-family: var(--t-text-font,Arial);
+                        line-height: 1.55;
+                        font-weight: 300;
+                        background-position: center center;
+                        border-width: var(--t396-borderwidth,0);
+                        border-style: var(--t396-borderstyle,solid);
+                        border-color: var(--t396-bordercolor,transparent);
+                        transition: background-color var(--t396-speedhover,0s) ease-in-out,color var(--t396-speedhover,0s) ease-in-out,border-color var(--t396-speedhover,0s) ease-in-out,box-shadow var(--t396-shadowshoverspeed,0.2s) ease-in-out;
+                        --t396-shadow-text-opacity: 100%;
+                        text-shadow: var(--t396-shadow-text-x,0px) var(--t396-shadow-text-y,0px) var(--t396-shadow-text-blur,0px) rgba(var(--t396-shadow-text-color),var(--t396-shadow-text-opacity,100%));
+                    }
+
+                    @media screen and (max-width: 1199px) {
+                        #rec2315714763 .tn-elem[data-elem-id="1727151746325"] {
+                            display:table;
+                            width: px;
+                            height: auto;
+                        }
+
+                        #rec2315714763 .tn-elem[data-elem-id="1727151746325"] .tn-atom {
+                            white-space: normal;
+                            background-size: cover;
+                        }
+                    }
+
+                    @media screen and (max-width: 959px) {
+                        #rec2315714763 .tn-elem[data-elem-id="1727151746325"] {
+                            display:table;
+                            width: px;
+                            height: auto;
+                        }
+
+                        #rec2315714763 .tn-elem[data-elem-id="1727151746325"] .tn-atom {
+                            white-space: normal;
+                            background-size: cover;
+                        }
+                    }
+
+                    @media screen and (max-width: 639px) {
+                        #rec2315714763 .tn-elem[data-elem-id="1727151746325"] {
+                            display:table;
+                            width: px;
+                            height: auto;
+                        }
+
+                        #rec2315714763 .tn-elem[data-elem-id="1727151746325"] .tn-atom {
+                            white-space: normal;
+                            background-size: cover;
+                        }
+                    }
+
+                    @media screen and (max-width: 479px) {
+                        #rec2315714763 .tn-elem[data-elem-id="1727151746325"] {
+                            display:table;
+                            top: 1807px;
+                            ;left: calc(50% - 160px + -9px);
+                            ;width: 338px;
+                            height: auto;
+                            color: #000000;
+                        }
+
+                        #rec2315714763 .tn-elem[data-elem-id="1727151746325"] .tn-atom {
+                            color: #000000;
+                            white-space: normal;
+                            font-size: 22px;
+                            background-size: cover;
+                        }
+                    }
+
+                    #rec2315714763 .tn-elem[data-elem-id="1727151760141"] {
+                        z-index: 3;
+                        top: 355px;
+                        ;left: calc(50% - 600px + -194px);
+                        ;width: 200px;
+                        height: auto;
+                    }
+
+                    #rec2315714763 .tn-elem.t396__elem--anim-hidden[data-elem-id="1727151760141"] {
+                        opacity: 0;
+                    }
+
+                    #rec2315714763 .tn-elem[data-elem-id="1727151760141"] .tn-atom {
+                        border-radius: 0px 0px 0px 0px;
+                        background-position: center center;
+                        border-width: var(--t396-borderwidth,0);
+                        border-style: var(--t396-borderstyle,solid);
+                        border-color: var(--t396-bordercolor,transparent);
+                        transition: background-color var(--t396-speedhover,0s) ease-in-out,color var(--t396-speedhover,0s) ease-in-out,border-color var(--t396-speedhover,0s) ease-in-out,box-shadow var(--t396-shadowshoverspeed,0.2s) ease-in-out;
+                    }
+
+                    #rec2315714763 .tn-elem[data-elem-id="1727151760141"] .tn-atom__img {
+                        border-radius: 0px 0px 0px 0px;
+                        object-position: center center;
+                    }
+
+                    @media screen and (max-width: 1199px) {
+                        #rec2315714763 .tn-elem[data-elem-id="1727151760141"] {
+                            display:table;
+                            height: auto;
+                        }
+                    }
+
+                    @media screen and (max-width: 959px) {
+                        #rec2315714763 .tn-elem[data-elem-id="1727151760141"] {
+                            display:table;
+                            height: auto;
+                        }
+                    }
+
+                    @media screen and (max-width: 639px) {
+                        #rec2315714763 .tn-elem[data-elem-id="1727151760141"] {
+                            display:table;
+                            height: auto;
+                        }
+                    }
+
+                    @media screen and (max-width: 479px) {
+                        #rec2315714763 .tn-elem[data-elem-id="1727151760141"] {
+                            display:table;
+                            top: 1692px;
+                            ;left: calc(50% - 160px + 91px);
+                            ;width: 52px;
+                            height: auto;
+                        }
+                    }
+
+                    #rec2315714763 .tn-elem[data-elem-id="1727152118700"] {
+                        z-index: 3;
+                        top: 257px;
+                        ;left: calc(50% - 600px + -171px);
+                        ;width: 200px;
+                        height: auto;
+                    }
+
+                    #rec2315714763 .tn-elem[data-elem-id="1727152118700"] .tn-atom {
+                        border-radius: 0px 0px 0px 0px;
+                        background-position: center center;
+                        border-width: var(--t396-borderwidth,0);
+                        border-style: var(--t396-borderstyle,solid);
+                        border-color: var(--t396-bordercolor,transparent);
+                        transition: background-color var(--t396-speedhover,0s) ease-in-out,color var(--t396-speedhover,0s) ease-in-out,border-color var(--t396-speedhover,0s) ease-in-out,box-shadow var(--t396-shadowshoverspeed,0.2s) ease-in-out;
+                    }
+
+                    #rec2315714763 .tn-elem[data-elem-id="1727152118700"] .tn-atom__img {
+                        border-radius: 0px 0px 0px 0px;
+                        object-position: center center;
+                    }
+
+                    @media screen and (max-width: 1199px) {
+                        #rec2315714763 .tn-elem[data-elem-id="1727152118700"] {
+                            display:table;
+                            height: auto;
+                        }
+                    }
+
+                    @media screen and (max-width: 959px) {
+                        #rec2315714763 .tn-elem[data-elem-id="1727152118700"] {
+                            display:table;
+                            height: auto;
+                        }
+                    }
+
+                    @media screen and (max-width: 639px) {
+                        #rec2315714763 .tn-elem[data-elem-id="1727152118700"] {
+                            display:table;
+                            height: auto;
+                        }
+                    }
+
+                    @media screen and (max-width: 479px) {
+                        #rec2315714763 .tn-elem[data-elem-id="1727152118700"] {
+                            display:table;
+                            top: 2309px;
+                            ;left: calc(50% - 160px + -59px);
+                            ;width: 240px;
+                            height: auto;
+                        }
+
+                        #rec2315714763 .tn-elem[data-elem-id="1727152118700"] .tn-atom {
+                            background-size: cover;
+                            -webkit-transform: rotate(69deg);
+                            -moz-transform: rotate(69deg);
+                            transform: rotate(69deg);
+                        }
+                    }
+
+                    #rec2315714763 .tn-elem[data-elem-id="1727152148211"] {
+                        z-index: 3;
+                        top: 46px;
+                        ;left: calc(50% - 600px + 548px);
+                        ;width: 200px;
+                        height: auto;
+                    }
+
+                    #rec2315714763 .tn-elem[data-elem-id="1727152148211"] .tn-atom {
+                        border-radius: 0px 0px 0px 0px;
+                        background-position: center center;
+                        border-width: var(--t396-borderwidth,0);
+                        border-style: var(--t396-borderstyle,solid);
+                        border-color: var(--t396-bordercolor,transparent);
+                        transition: background-color var(--t396-speedhover,0s) ease-in-out,color var(--t396-speedhover,0s) ease-in-out,border-color var(--t396-speedhover,0s) ease-in-out,box-shadow var(--t396-shadowshoverspeed,0.2s) ease-in-out;
+                    }
+
+                    #rec2315714763 .tn-elem[data-elem-id="1727152148211"] .tn-atom__img {
+                        border-radius: 0px 0px 0px 0px;
+                        object-position: center center;
+                    }
+
+                    @media screen and (max-width: 1199px) {
+                        #rec2315714763 .tn-elem[data-elem-id="1727152148211"] {
+                            display:table;
+                            height: auto;
+                        }
+                    }
+
+                    @media screen and (max-width: 959px) {
+                        #rec2315714763 .tn-elem[data-elem-id="1727152148211"] {
+                            display:table;
+                            height: auto;
+                        }
+                    }
+
+                    @media screen and (max-width: 639px) {
+                        #rec2315714763 .tn-elem[data-elem-id="1727152148211"] {
+                            display:table;
+                            height: auto;
+                        }
+                    }
+
+                    @media screen and (max-width: 479px) {
+                        #rec2315714763 .tn-elem[data-elem-id="1727152148211"] {
+                            display:table;
+                            top: 2383px;
+                            ;left: calc(50% - 160px + 25px);
+                            ;width: 323px;
+                            height: auto;
+                        }
+                    }
+
+                    #rec2315714763 .tn-elem[data-elem-id="1727152199785"] {
+                        z-index: 3;
+                        top: 20px;
+                        ;left: calc(50% - 600px + 20px);
+                        ;width: 200px;
+                        height: auto;
+                    }
+
+                    #rec2315714763 .tn-elem[data-elem-id="1727152199785"] .tn-atom {
+                        border-radius: 0px 0px 0px 0px;
+                        background-position: center center;
+                        border-width: var(--t396-borderwidth,0);
+                        border-style: var(--t396-borderstyle,solid);
+                        border-color: var(--t396-bordercolor,transparent);
+                        transition: background-color var(--t396-speedhover,0s) ease-in-out,color var(--t396-speedhover,0s) ease-in-out,border-color var(--t396-speedhover,0s) ease-in-out,box-shadow var(--t396-shadowshoverspeed,0.2s) ease-in-out;
+                    }
+
+                    #rec2315714763 .tn-elem[data-elem-id="1727152199785"] .tn-atom__img {
+                        border-radius: 0px 0px 0px 0px;
+                        object-position: center center;
+                    }
+
+                    @media screen and (max-width: 1199px) {
+                        #rec2315714763 .tn-elem[data-elem-id="1727152199785"] {
+                            display:table;
+                            height: auto;
+                        }
+                    }
+
+                    @media screen and (max-width: 959px) {
+                        #rec2315714763 .tn-elem[data-elem-id="1727152199785"] {
+                            display:table;
+                            height: auto;
+                        }
+                    }
+
+                    @media screen and (max-width: 639px) {
+                        #rec2315714763 .tn-elem[data-elem-id="1727152199785"] {
+                            display:table;
+                            height: auto;
+                        }
+                    }
+
+                    @media screen and (max-width: 479px) {
+                        #rec2315714763 .tn-elem[data-elem-id="1727152199785"] {
+                            display:table;
+                            top: 1939px;
+                            ;left: calc(50% - 160px + 18px);
+                            ;width: 285px;
+                            height: auto;
+                        }
+                    }
+
+                    #rec2315714763 .tn-elem[data-elem-id="1727152227030"] {
+                        color: #000000;
+                        z-index: 3;
+                        top: -228px;
+                        ;left: calc(50% - 600px + 360px);
+                        ;width: 560px;
+                        height: auto;
+                    }
+
+                    #rec2315714763 .tn-elem[data-elem-id="1727152227030"] .tn-atom {
+                        vertical-align: middle;
+                        color: #000000;
+                        font-size: 15px;
+                        font-family: var(--t-text-font,Arial);
+                        line-height: 1.55;
+                        font-weight: 300;
+                        background-position: center center;
+                        border-width: var(--t396-borderwidth,0);
+                        border-style: var(--t396-borderstyle,solid);
+                        border-color: var(--t396-bordercolor,transparent);
+                        transition: background-color var(--t396-speedhover,0s) ease-in-out,color var(--t396-speedhover,0s) ease-in-out,border-color var(--t396-speedhover,0s) ease-in-out,box-shadow var(--t396-shadowshoverspeed,0.2s) ease-in-out;
+                        --t396-shadow-text-opacity: 100%;
+                        text-shadow: var(--t396-shadow-text-x,0px) var(--t396-shadow-text-y,0px) var(--t396-shadow-text-blur,0px) rgba(var(--t396-shadow-text-color),var(--t396-shadow-text-opacity,100%));
+                    }
+
+                    @media screen and (max-width: 1199px) {
+                        #rec2315714763 .tn-elem[data-elem-id="1727152227030"] {
+                            display:table;
+                            width: px;
+                            height: auto;
+                        }
+
+                        #rec2315714763 .tn-elem[data-elem-id="1727152227030"] .tn-atom {
+                            white-space: normal;
+                            background-size: cover;
+                        }
+                    }
+
+                    @media screen and (max-width: 959px) {
+                        #rec2315714763 .tn-elem[data-elem-id="1727152227030"] {
+                            display:table;
+                            width: px;
+                            height: auto;
+                        }
+
+                        #rec2315714763 .tn-elem[data-elem-id="1727152227030"] .tn-atom {
+                            white-space: normal;
+                            background-size: cover;
+                        }
+                    }
+
+                    @media screen and (max-width: 639px) {
+                        #rec2315714763 .tn-elem[data-elem-id="1727152227030"] {
+                            display:table;
+                            width: px;
+                            height: auto;
+                        }
+
+                        #rec2315714763 .tn-elem[data-elem-id="1727152227030"] .tn-atom {
+                            white-space: normal;
+                            background-size: cover;
+                        }
+                    }
+
+                    @media screen and (max-width: 479px) {
+                        #rec2315714763 .tn-elem[data-elem-id="1727152227030"] {
+                            display:table;
+                            top: 1993px;
+                            ;left: calc(50% - 160px + -16px);
+                            ;width: 352px;
+                            height: auto;
+                            text-align: center;
+                        }
+
+                        #rec2315714763 .tn-elem[data-elem-id="1727152227030"] .tn-atom {
+                            white-space: normal;
+                            font-size: 20px;
+                            line-height: 1.75;
+                            background-size: cover;
+                        }
+                    }
+
+                    #rec2315714763 .tn-elem[data-elem-id="1727152227023"] {
+                        color: #000000;
+                        z-index: 3;
+                        top: -315px;
+                        ;left: calc(50% - 600px + 244px);
+                        ;width: 560px;
+                        height: auto;
+                    }
+
+                    #rec2315714763 .tn-elem[data-elem-id="1727152227023"] .tn-atom {
+                        vertical-align: middle;
+                        color: #000000;
+                        font-size: 15px;
+                        font-family: var(--t-text-font,Arial);
+                        line-height: 1.55;
+                        font-weight: 300;
+                        background-position: center center;
+                        border-width: var(--t396-borderwidth,0);
+                        border-style: var(--t396-borderstyle,solid);
+                        border-color: var(--t396-bordercolor,transparent);
+                        transition: background-color var(--t396-speedhover,0s) ease-in-out,color var(--t396-speedhover,0s) ease-in-out,border-color var(--t396-speedhover,0s) ease-in-out,box-shadow var(--t396-shadowshoverspeed,0.2s) ease-in-out;
+                        --t396-shadow-text-opacity: 100%;
+                        text-shadow: var(--t396-shadow-text-x,0px) var(--t396-shadow-text-y,0px) var(--t396-shadow-text-blur,0px) rgba(var(--t396-shadow-text-color),var(--t396-shadow-text-opacity,100%));
+                    }
+
+                    @media screen and (max-width: 1199px) {
+                        #rec2315714763 .tn-elem[data-elem-id="1727152227023"] {
+                            display:table;
+                            width: px;
+                            height: auto;
+                        }
+
+                        #rec2315714763 .tn-elem[data-elem-id="1727152227023"] .tn-atom {
+                            white-space: normal;
+                            background-size: cover;
+                        }
+                    }
+
+                    @media screen and (max-width: 959px) {
+                        #rec2315714763 .tn-elem[data-elem-id="1727152227023"] {
+                            display:table;
+                            width: px;
+                            height: auto;
+                        }
+
+                        #rec2315714763 .tn-elem[data-elem-id="1727152227023"] .tn-atom {
+                            white-space: normal;
+                            background-size: cover;
+                        }
+                    }
+
+                    @media screen and (max-width: 639px) {
+                        #rec2315714763 .tn-elem[data-elem-id="1727152227023"] {
+                            display:table;
+                            width: px;
+                            height: auto;
+                        }
+
+                        #rec2315714763 .tn-elem[data-elem-id="1727152227023"] .tn-atom {
+                            white-space: normal;
+                            background-size: cover;
+                        }
+                    }
+
+                    @media screen and (max-width: 479px) {
+                        #rec2315714763 .tn-elem[data-elem-id="1727152227023"] {
+                            display:table;
+                            top: 2159px;
+                            ;left: calc(50% - 160px + -9px);
+                            ;width: 338px;
+                            height: auto;
+                            text-align: center;
+                        }
+
+                        #rec2315714763 .tn-elem[data-elem-id="1727152227023"] .tn-atom {
+                            white-space: normal;
+                            font-size: 15px;
+                            background-size: cover;
+                        }
+                    }
+
+                    #rec2315714763 .tn-elem[data-elem-id="1727152227019"] {
+                        z-index: 3;
+                        top: 64px;
+                        ;left: calc(50% - 600px + 720px);
+                        ;width: 200px;
+                        height: auto;
+                    }
+
+                    #rec2315714763 .tn-elem[data-elem-id="1727152227019"] .tn-atom {
+                        border-radius: 0px 0px 0px 0px;
+                        background-position: center center;
+                        border-width: var(--t396-borderwidth,0);
+                        border-style: var(--t396-borderstyle,solid);
+                        border-color: var(--t396-bordercolor,transparent);
+                        transition: background-color var(--t396-speedhover,0s) ease-in-out,color var(--t396-speedhover,0s) ease-in-out,border-color var(--t396-speedhover,0s) ease-in-out,box-shadow var(--t396-shadowshoverspeed,0.2s) ease-in-out;
+                    }
+
+                    #rec2315714763 .tn-elem[data-elem-id="1727152227019"] .tn-atom__img {
+                        border-radius: 0px 0px 0px 0px;
+                        object-position: center center;
+                    }
+
+                    @media screen and (max-width: 1199px) {
+                        #rec2315714763 .tn-elem[data-elem-id="1727152227019"] {
+                            display:table;
+                            height: auto;
+                        }
+                    }
+
+                    @media screen and (max-width: 959px) {
+                        #rec2315714763 .tn-elem[data-elem-id="1727152227019"] {
+                            display:table;
+                            height: auto;
+                        }
+                    }
+
+                    @media screen and (max-width: 639px) {
+                        #rec2315714763 .tn-elem[data-elem-id="1727152227019"] {
+                            display:table;
+                            height: auto;
+                        }
+                    }
+
+                    @media screen and (max-width: 479px) {
+                        #rec2315714763 .tn-elem[data-elem-id="1727152227019"] {
+                            display:table;
+                            top: 2205px;
+                            ;left: calc(50% - 160px + 60px);
+                            ;height: auto;
+                        }
+                    }
+
+                    #rec2315714763 .tn-elem[data-elem-id="1728667124599"] {
+                        color: #000000;
+                        z-index: 3;
+                        top: 20px;
+                        ;left: calc(50% - 600px + 177px);
+                        ;width: 560px;
+                        height: auto;
+                    }
+
+                    #rec2315714763 .tn-elem[data-elem-id="1728667124599"] .tn-atom {
+                        vertical-align: middle;
+                        color: #000000;
+                        font-size: 20px;
+                        font-family: var(--t-text-font,Arial);
+                        line-height: 1.55;
+                        font-weight: 900;
+                        background-position: center center;
+                        border-width: var(--t396-borderwidth,0);
+                        border-style: var(--t396-borderstyle,solid);
+                        border-color: var(--t396-bordercolor,transparent);
+                        transition: background-color var(--t396-speedhover,0s) ease-in-out,color var(--t396-speedhover,0s) ease-in-out,border-color var(--t396-speedhover,0s) ease-in-out,box-shadow var(--t396-shadowshoverspeed,0.2s) ease-in-out;
+                        --t396-shadow-text-opacity: 100%;
+                        text-shadow: var(--t396-shadow-text-x,0px) var(--t396-shadow-text-y,0px) var(--t396-shadow-text-blur,0px) rgba(var(--t396-shadow-text-color),var(--t396-shadow-text-opacity,100%));
+                    }
+
+                    @media screen and (max-width: 1199px) {
+                        #rec2315714763 .tn-elem[data-elem-id="1728667124599"] {
+                            display:table;
+                            width: px;
+                            height: auto;
+                        }
+
+                        #rec2315714763 .tn-elem[data-elem-id="1728667124599"] .tn-atom {
+                            white-space: normal;
+                            background-size: cover;
+                        }
+                    }
+
+                    @media screen and (max-width: 959px) {
+                        #rec2315714763 .tn-elem[data-elem-id="1728667124599"] {
+                            display:table;
+                            width: px;
+                            height: auto;
+                        }
+
+                        #rec2315714763 .tn-elem[data-elem-id="1728667124599"] .tn-atom {
+                            white-space: normal;
+                            background-size: cover;
+                        }
+                    }
+
+                    @media screen and (max-width: 639px) {
+                        #rec2315714763 .tn-elem[data-elem-id="1728667124599"] {
+                            display:table;
+                            width: px;
+                            height: auto;
+                        }
+
+                        #rec2315714763 .tn-elem[data-elem-id="1728667124599"] .tn-atom {
+                            white-space: normal;
+                            background-size: cover;
+                        }
+                    }
+
+                    @media screen and (max-width: 479px) {
+                        #rec2315714763 .tn-elem[data-elem-id="1728667124599"] {
+                            display:table;
+                            top: 930px;
+                            ;left: calc(50% - 160px + -120px);
+                            ;width: 560px;
+                            height: auto;
+                            color: #456754;
+                            text-align: center;
+                        }
+
+                        #rec2315714763 .tn-elem[data-elem-id="1728667124599"] .tn-atom {
+                            color: #456754;
+                            white-space: normal;
+                            font-size: 61px;
+                            background-size: cover;
+                        }
+                    }
+
+                    #rec2315714763 .tn-elem[data-elem-id="1779834576716000001"] {
+                        color: #000000;
+                        z-index: 3;
+                        top: 30px;
+                        ;left: calc(50% - 600px + 187px);
+                        ;width: 560px;
+                        height: auto;
+                    }
+
+                    #rec2315714763 .tn-elem[data-elem-id="1779834576716000001"] .tn-atom {
+                        vertical-align: middle;
+                        color: #000000;
+                        font-size: 20px;
+                        font-family: var(--t-text-font,Arial);
+                        line-height: 1.55;
+                        font-weight: 900;
+                        background-position: center center;
+                        border-width: var(--t396-borderwidth,0);
+                        border-style: var(--t396-borderstyle,solid);
+                        border-color: var(--t396-bordercolor,transparent);
+                        transition: background-color var(--t396-speedhover,0s) ease-in-out,color var(--t396-speedhover,0s) ease-in-out,border-color var(--t396-speedhover,0s) ease-in-out,box-shadow var(--t396-shadowshoverspeed,0.2s) ease-in-out;
+                        --t396-shadow-text-opacity: 100%;
+                        text-shadow: var(--t396-shadow-text-x,0px) var(--t396-shadow-text-y,0px) var(--t396-shadow-text-blur,0px) rgba(var(--t396-shadow-text-color),var(--t396-shadow-text-opacity,100%));
+                    }
+
+                    @media screen and (max-width: 1199px) {
+                        #rec2315714763 .tn-elem[data-elem-id="1779834576716000001"] {
+                            display:table;
+                            width: px;
+                            height: auto;
+                        }
+
+                        #rec2315714763 .tn-elem[data-elem-id="1779834576716000001"] .tn-atom {
+                            white-space: normal;
+                            background-size: cover;
+                        }
+                    }
+
+                    @media screen and (max-width: 959px) {
+                        #rec2315714763 .tn-elem[data-elem-id="1779834576716000001"] {
+                            display:table;
+                            width: px;
+                            height: auto;
+                        }
+
+                        #rec2315714763 .tn-elem[data-elem-id="1779834576716000001"] .tn-atom {
+                            white-space: normal;
+                            background-size: cover;
+                        }
+                    }
+
+                    @media screen and (max-width: 639px) {
+                        #rec2315714763 .tn-elem[data-elem-id="1779834576716000001"] {
+                            display:table;
+                            width: px;
+                            height: auto;
+                        }
+
+                        #rec2315714763 .tn-elem[data-elem-id="1779834576716000001"] .tn-atom {
+                            white-space: normal;
+                            background-size: cover;
+                        }
+                    }
+
+                    @media screen and (max-width: 479px) {
+                        #rec2315714763 .tn-elem[data-elem-id="1779834576716000001"] {
+                            display:table;
+                            top: 2590px;
+                            ;left: calc(50% - 160px + -120px);
+                            ;width: 560px;
+                            height: auto;
+                            color: #456754;
+                            text-align: center;
+                        }
+
+                        #rec2315714763 .tn-elem[data-elem-id="1779834576716000001"] .tn-atom {
+                            color: #456754;
+                            white-space: normal;
+                            font-size: 50px;
+                            line-height: 1.15;
+                            background-size: cover;
+                        }
+                    }
+
+                    #rec2315714763 .tn-elem[data-elem-id="1728667506506"] {
+                        color: #000000;
+                        text-align: center;
+                        z-index: 3;
+                        top: 393px;
+                        ;left: calc(50% - 600px + 230px);
+                        ;width: 560px;
+                        height: auto;
+                    }
+
+                    #rec2315714763 .tn-elem[data-elem-id="1728667506506"] .tn-atom {
+                        vertical-align: middle;
+                        color: #000000;
+                        font-size: 20px;
+                        font-family: var(--t-text-font,Arial);
+                        line-height: 1.55;
+                        font-weight: 500;
+                        background-position: center center;
+                        border-width: var(--t396-borderwidth,0);
+                        border-style: var(--t396-borderstyle,solid);
+                        border-color: var(--t396-bordercolor,transparent);
+                        transition: background-color var(--t396-speedhover,0s) ease-in-out,color var(--t396-speedhover,0s) ease-in-out,border-color var(--t396-speedhover,0s) ease-in-out,box-shadow var(--t396-shadowshoverspeed,0.2s) ease-in-out;
+                        --t396-shadow-text-opacity: 100%;
+                        text-shadow: var(--t396-shadow-text-x,0px) var(--t396-shadow-text-y,0px) var(--t396-shadow-text-blur,0px) rgba(var(--t396-shadow-text-color),var(--t396-shadow-text-opacity,100%));
+                    }
+
+                    @media screen and (max-width: 1199px) {
+                        #rec2315714763 .tn-elem[data-elem-id="1728667506506"] {
+                            display:table;
+                            width: px;
+                            height: auto;
+                        }
+
+                        #rec2315714763 .tn-elem[data-elem-id="1728667506506"] .tn-atom {
+                            white-space: normal;
+                            background-size: cover;
+                        }
+                    }
+
+                    @media screen and (max-width: 959px) {
+                        #rec2315714763 .tn-elem[data-elem-id="1728667506506"] {
+                            display:table;
+                            width: px;
+                            height: auto;
+                        }
+
+                        #rec2315714763 .tn-elem[data-elem-id="1728667506506"] .tn-atom {
+                            white-space: normal;
+                            background-size: cover;
+                        }
+                    }
+
+                    @media screen and (max-width: 639px) {
+                        #rec2315714763 .tn-elem[data-elem-id="1728667506506"] {
+                            display:table;
+                            width: px;
+                            height: auto;
+                        }
+
+                        #rec2315714763 .tn-elem[data-elem-id="1728667506506"] .tn-atom {
+                            white-space: normal;
+                            background-size: cover;
+                        }
+                    }
+
+                    @media screen and (max-width: 479px) {
+                        #rec2315714763 .tn-elem[data-elem-id="1728667506506"] {
+                            display:table;
+                            top: 3320px;
+                            ;left: calc(50% - 160px + -120px);
+                            ;width: 560px;
+                            height: auto;
+                            color: #456754;
+                            text-align: center;
+                        }
+
+                        #rec2315714763 .tn-elem[data-elem-id="1728667506506"] .tn-atom {
+                            color: #456754;
+                            white-space: normal;
+                            font-size: 42px;
+                            line-height: 1.15;
+                            background-size: cover;
+                        }
+                    }
+
+                    #rec2315714763 .tn-elem[data-elem-id="1728667506497"] {
+                        z-index: 3;
+                        top: 874px;
+                        ;left: calc(50% - 600px + 376px);
+                        ;width: 460px;
+                        height: auto;
+                    }
+
+                    #rec2315714763 .tn-elem[data-elem-id="1728667506497"] .tn-atom {
+                        background-position: center center;
+                        border-width: var(--t396-borderwidth,0);
+                        border-style: var(--t396-borderstyle,solid);
+                        border-color: var(--t396-bordercolor,transparent);
+                        transition: background-color var(--t396-speedhover,0s) ease-in-out,color var(--t396-speedhover,0s) ease-in-out,border-color var(--t396-speedhover,0s) ease-in-out,box-shadow var(--t396-shadowshoverspeed,0.2s) ease-in-out;
+                    }
+
+                    @media screen and (max-width: 1199px) {
+                        #rec2315714763 .tn-elem[data-elem-id="1728667506497"] {
+                            display:table;
+                            height: auto;
+                        }
+                    }
+
+                    @media screen and (max-width: 959px) {
+                        #rec2315714763 .tn-elem[data-elem-id="1728667506497"] {
+                            display:table;
+                            height: auto;
+                        }
+                    }
+
+                    @media screen and (max-width: 639px) {
+                        #rec2315714763 .tn-elem[data-elem-id="1728667506497"] {
+                            display:table;
+                            height: auto;
+                        }
+                    }
+
+                    @media screen and (max-width: 479px) {
+                        #rec2315714763 .tn-elem[data-elem-id="1728667506497"] {
+                            display:table;
+                            top: 3005px;
+                            ;left: calc(50% - 160px + -10px);
+                            ;width: 341px;
+                            height: auto;
+                        }
+                    }
+
+                    #rec2315714763 .tn-elem[data-elem-id="1728667506492"] {
+                        color: #000000;
+                        z-index: 3;
+                        top: 20px;
+                        ;left: calc(50% - 600px + 20px);
+                        ;width: 560px;
+                        height: auto;
+                    }
+
+                    #rec2315714763 .tn-elem[data-elem-id="1728667506492"] .tn-atom {
+                        vertical-align: middle;
+                        color: #000000;
+                        font-size: 20px;
+                        font-family: var(--t-text-font,Arial);
+                        line-height: 1.55;
+                        font-weight: 300;
+                        background-position: center center;
+                        border-width: var(--t396-borderwidth,0);
+                        border-style: var(--t396-borderstyle,solid);
+                        border-color: var(--t396-bordercolor,transparent);
+                        transition: background-color var(--t396-speedhover,0s) ease-in-out,color var(--t396-speedhover,0s) ease-in-out,border-color var(--t396-speedhover,0s) ease-in-out,box-shadow var(--t396-shadowshoverspeed,0.2s) ease-in-out;
+                        --t396-shadow-text-opacity: 100%;
+                        text-shadow: var(--t396-shadow-text-x,0px) var(--t396-shadow-text-y,0px) var(--t396-shadow-text-blur,0px) rgba(var(--t396-shadow-text-color),var(--t396-shadow-text-opacity,100%));
+                    }
+
+                    @media screen and (max-width: 1199px) {
+                        #rec2315714763 .tn-elem[data-elem-id="1728667506492"] {
+                            display:table;
+                            width: px;
+                            height: auto;
+                        }
+
+                        #rec2315714763 .tn-elem[data-elem-id="1728667506492"] .tn-atom {
+                            white-space: normal;
+                            background-size: cover;
+                        }
+                    }
+
+                    @media screen and (max-width: 959px) {
+                        #rec2315714763 .tn-elem[data-elem-id="1728667506492"] {
+                            display:table;
+                            width: px;
+                            height: auto;
+                        }
+
+                        #rec2315714763 .tn-elem[data-elem-id="1728667506492"] .tn-atom {
+                            white-space: normal;
+                            background-size: cover;
+                        }
+                    }
+
+                    @media screen and (max-width: 639px) {
+                        #rec2315714763 .tn-elem[data-elem-id="1728667506492"] {
+                            display:table;
+                            width: px;
+                            height: auto;
+                        }
+
+                        #rec2315714763 .tn-elem[data-elem-id="1728667506492"] .tn-atom {
+                            white-space: normal;
+                            background-size: cover;
+                        }
+                    }
+
+                    @media screen and (max-width: 479px) {
+                        #rec2315714763 .tn-elem[data-elem-id="1728667506492"] {
+                            display:table;
+                            top: 2894px;
+                            ;left: calc(50% - 160px + -14px);
+                            ;width: 348px;
+                            height: auto;
+                            text-align: center;
+                        }
+
+                        #rec2315714763 .tn-elem[data-elem-id="1728667506492"] .tn-atom {
+                            white-space: normal;
+                            font-size: 17px;
+                            background-size: cover;
+                        }
+                    }
+
+                    #rec2315714763 .tn-elem[data-elem-id="1728667506486"] {
+                        color: #000000;
+                        z-index: 3;
+                        top: 50px;
+                        ;left: calc(50% - 600px + 50px);
+                        ;width: 560px;
+                        height: auto;
+                    }
+
+                    #rec2315714763 .tn-elem[data-elem-id="1728667506486"] .tn-atom {
+                        vertical-align: middle;
+                        color: #000000;
+                        font-size: 20px;
+                        font-family: var(--t-text-font,Arial);
+                        line-height: 1.55;
+                        font-weight: 900;
+                        background-position: center center;
+                        border-width: var(--t396-borderwidth,0);
+                        border-style: var(--t396-borderstyle,solid);
+                        border-color: var(--t396-bordercolor,transparent);
+                        transition: background-color var(--t396-speedhover,0s) ease-in-out,color var(--t396-speedhover,0s) ease-in-out,border-color var(--t396-speedhover,0s) ease-in-out,box-shadow var(--t396-shadowshoverspeed,0.2s) ease-in-out;
+                        --t396-shadow-text-opacity: 100%;
+                        text-shadow: var(--t396-shadow-text-x,0px) var(--t396-shadow-text-y,0px) var(--t396-shadow-text-blur,0px) rgba(var(--t396-shadow-text-color),var(--t396-shadow-text-opacity,100%));
+                    }
+
+                    @media screen and (max-width: 1199px) {
+                        #rec2315714763 .tn-elem[data-elem-id="1728667506486"] {
+                            display:table;
+                            width: px;
+                            height: auto;
+                        }
+
+                        #rec2315714763 .tn-elem[data-elem-id="1728667506486"] .tn-atom {
+                            white-space: normal;
+                            background-size: cover;
+                        }
+                    }
+
+                    @media screen and (max-width: 959px) {
+                        #rec2315714763 .tn-elem[data-elem-id="1728667506486"] {
+                            display:table;
+                            width: px;
+                            height: auto;
+                        }
+
+                        #rec2315714763 .tn-elem[data-elem-id="1728667506486"] .tn-atom {
+                            white-space: normal;
+                            background-size: cover;
+                        }
+                    }
+
+                    @media screen and (max-width: 639px) {
+                        #rec2315714763 .tn-elem[data-elem-id="1728667506486"] {
+                            display:table;
+                            width: px;
+                            height: auto;
+                        }
+
+                        #rec2315714763 .tn-elem[data-elem-id="1728667506486"] .tn-atom {
+                            white-space: normal;
+                            background-size: cover;
+                        }
+                    }
+
+                    @media screen and (max-width: 479px) {
+                        #rec2315714763 .tn-elem[data-elem-id="1728667506486"] {
+                            display:table;
+                            top: 2807px;
+                            ;left: calc(50% - 160px + -32px);
+                            ;width: 384px;
+                            height: auto;
+                            color: #456754;
+                            text-align: center;
+                        }
+
+                        #rec2315714763 .tn-elem[data-elem-id="1728667506486"] .tn-atom {
+                            color: #456754;
+                            white-space: normal;
+                            font-size: 55px;
+                            background-size: cover;
+                        }
+                    }
+
+                    #rec2315714763 .tn-elem[data-elem-id="1728667506480"] {
+                        color: #000000;
+                        z-index: 3;
+                        top: 529px;
+                        ;left: calc(50% - 600px + 258px);
+                        ;width: 560px;
+                        height: auto;
+                    }
+
+                    #rec2315714763 .tn-elem[data-elem-id="1728667506480"] .tn-atom {
+                        vertical-align: middle;
+                        color: #000000;
+                        font-size: 20px;
+                        font-family: var(--t-text-font,Arial);
+                        line-height: 1.55;
+                        font-weight: 400;
+                        background-position: center center;
+                        border-width: var(--t396-borderwidth,0);
+                        border-style: var(--t396-borderstyle,solid);
+                        border-color: var(--t396-bordercolor,transparent);
+                        transition: background-color var(--t396-speedhover,0s) ease-in-out,color var(--t396-speedhover,0s) ease-in-out,border-color var(--t396-speedhover,0s) ease-in-out,box-shadow var(--t396-shadowshoverspeed,0.2s) ease-in-out;
+                        --t396-shadow-text-opacity: 100%;
+                        text-shadow: var(--t396-shadow-text-x,0px) var(--t396-shadow-text-y,0px) var(--t396-shadow-text-blur,0px) rgba(var(--t396-shadow-text-color),var(--t396-shadow-text-opacity,100%));
+                    }
+
+                    @media screen and (max-width: 1199px) {
+                        #rec2315714763 .tn-elem[data-elem-id="1728667506480"] {
+                            display:table;
+                            width: px;
+                            height: auto;
+                        }
+
+                        #rec2315714763 .tn-elem[data-elem-id="1728667506480"] .tn-atom {
+                            white-space: normal;
+                            background-size: cover;
+                        }
+                    }
+
+                    @media screen and (max-width: 959px) {
+                        #rec2315714763 .tn-elem[data-elem-id="1728667506480"] {
+                            display:table;
+                            width: px;
+                            height: auto;
+                        }
+
+                        #rec2315714763 .tn-elem[data-elem-id="1728667506480"] .tn-atom {
+                            white-space: normal;
+                            background-size: cover;
+                        }
+                    }
+
+                    @media screen and (max-width: 639px) {
+                        #rec2315714763 .tn-elem[data-elem-id="1728667506480"] {
+                            display:table;
+                            width: px;
+                            height: auto;
+                        }
+
+                        #rec2315714763 .tn-elem[data-elem-id="1728667506480"] .tn-atom {
+                            white-space: normal;
+                            background-size: cover;
+                        }
+                    }
+
+                    @media screen and (max-width: 479px) {
+                        #rec2315714763 .tn-elem[data-elem-id="1728667506480"] {
+                            display:table;
+                            top: 3828px;
+                            ;left: calc(50% - 160px + 17px);
+                            ;width: 286px;
+                            height: auto;
+                            color: #000000;
+                            text-align: center;
+                        }
+
+                        #rec2315714763 .tn-elem[data-elem-id="1728667506480"] .tn-atom {
+                            color: #000000;
+                            white-space: normal;
+                            font-size: 11px;
+                            line-height: 1.25;
+                            background-size: cover;
+                        }
+                    }
+
+                    #rec2315714763 .tn-elem[data-elem-id="1728667506474"] {
+                        z-index: 3;
+                        top: 103px;
+                        ;left: calc(50% - 600px + 0px);
+                        ;width: 81px;
+                        height: auto;
+                    }
+
+                    #rec2315714763 .tn-elem[data-elem-id="1728667506474"] .tn-atom {
+                        border-radius: 0px 0px 0px 0px;
+                        background-position: center center;
+                        border-width: var(--t396-borderwidth,0);
+                        border-style: var(--t396-borderstyle,solid);
+                        border-color: var(--t396-bordercolor,transparent);
+                        transition: background-color var(--t396-speedhover,0s) ease-in-out,color var(--t396-speedhover,0s) ease-in-out,border-color var(--t396-speedhover,0s) ease-in-out,box-shadow var(--t396-shadowshoverspeed,0.2s) ease-in-out;
+                    }
+
+                    #rec2315714763 .tn-elem[data-elem-id="1728667506474"] .tn-atom__img {
+                        border-radius: 0px 0px 0px 0px;
+                        object-position: center center;
+                    }
+
+                    @media screen and (max-width: 1199px) {
+                        #rec2315714763 .tn-elem[data-elem-id="1728667506474"] {
+                            display:table;
+                            height: auto;
+                        }
+                    }
+
+                    @media screen and (max-width: 959px) {
+                        #rec2315714763 .tn-elem[data-elem-id="1728667506474"] {
+                            display:table;
+                            height: auto;
+                        }
+                    }
+
+                    @media screen and (max-width: 639px) {
+                        #rec2315714763 .tn-elem[data-elem-id="1728667506474"] {
+                            display:table;
+                            height: auto;
+                        }
+                    }
+
+                    @media screen and (max-width: 479px) {
+                        #rec2315714763 .tn-elem[data-elem-id="1728667506474"] {
+                            display:table;
+                            top: 3862px;
+                            ;left: calc(50% - 160px + 189px);
+                            ;width: 28px;
+                            height: auto;
+                        }
+                    }
+
+                    #rec2315714763 .tn-elem[data-elem-id="1728667506466"] {
+                        z-index: 3;
+                        top: 195px;
+                        ;left: calc(50% - 600px + 107px);
+                        ;width: 81px;
+                        height: auto;
+                    }
+
+                    #rec2315714763 .tn-elem[data-elem-id="1728667506466"] .tn-atom {
+                        border-radius: 0px 0px 0px 0px;
+                        background-position: center center;
+                        border-width: var(--t396-borderwidth,0);
+                        border-style: var(--t396-borderstyle,solid);
+                        border-color: var(--t396-bordercolor,transparent);
+                        transition: background-color var(--t396-speedhover,0s) ease-in-out,color var(--t396-speedhover,0s) ease-in-out,border-color var(--t396-speedhover,0s) ease-in-out,box-shadow var(--t396-shadowshoverspeed,0.2s) ease-in-out;
+                    }
+
+                    #rec2315714763 .tn-elem[data-elem-id="1728667506466"] .tn-atom__img {
+                        border-radius: 0px 0px 0px 0px;
+                        object-position: center center;
+                    }
+
+                    @media screen and (max-width: 1199px) {
+                        #rec2315714763 .tn-elem[data-elem-id="1728667506466"] {
+                            display:table;
+                            height: auto;
+                        }
+                    }
+
+                    @media screen and (max-width: 959px) {
+                        #rec2315714763 .tn-elem[data-elem-id="1728667506466"] {
+                            display:table;
+                            height: auto;
+                        }
+                    }
+
+                    @media screen and (max-width: 639px) {
+                        #rec2315714763 .tn-elem[data-elem-id="1728667506466"] {
+                            display:table;
+                            height: auto;
+                        }
+                    }
+
+                    @media screen and (max-width: 479px) {
+                        #rec2315714763 .tn-elem[data-elem-id="1728667506466"] {
+                            display:table;
+                            top: 3862px;
+                            ;left: calc(50% - 160px + 108px);
+                            ;width: 29px;
+                            height: auto;
+                        }
+                    }
+
+                    #rec2315714763 .tn-elem[data-elem-id="1728667522319"] {
+                        z-index: 3;
+                        top: 673px;
+                        ;left: calc(50% - 600px + -38px);
+                        ;width: 200px;
+                        height: auto;
+                    }
+
+                    #rec2315714763 .tn-elem[data-elem-id="1728667522319"] .tn-atom {
+                        border-radius: 0px 0px 0px 0px;
+                        background-position: center center;
+                        border-width: var(--t396-borderwidth,0);
+                        border-style: var(--t396-borderstyle,solid);
+                        border-color: var(--t396-bordercolor,transparent);
+                        transition: background-color var(--t396-speedhover,0s) ease-in-out,color var(--t396-speedhover,0s) ease-in-out,border-color var(--t396-speedhover,0s) ease-in-out,box-shadow var(--t396-shadowshoverspeed,0.2s) ease-in-out;
+                    }
+
+                    #rec2315714763 .tn-elem[data-elem-id="1728667522319"] .tn-atom__img {
+                        border-radius: 0px 0px 0px 0px;
+                        object-position: center center;
+                    }
+
+                    @media screen and (max-width: 1199px) {
+                        #rec2315714763 .tn-elem[data-elem-id="1728667522319"] {
+                            display:table;
+                            height: auto;
+                        }
+                    }
+
+                    @media screen and (max-width: 959px) {
+                        #rec2315714763 .tn-elem[data-elem-id="1728667522319"] {
+                            display:table;
+                            height: auto;
+                        }
+                    }
+
+                    @media screen and (max-width: 639px) {
+                        #rec2315714763 .tn-elem[data-elem-id="1728667522319"] {
+                            display:table;
+                            height: auto;
+                        }
+                    }
+
+                    @media screen and (max-width: 479px) {
+                        #rec2315714763 .tn-elem[data-elem-id="1728667522319"] {
+                            display:table;
+                            top: 13px;
+                            ;left: calc(50% - 160px + -110px);
+                            ;width: 326px;
+                            height: auto;
+                        }
+
+                        #rec2315714763 .tn-elem[data-elem-id="1728667522319"] .tn-atom {
+                            background-size: cover;
+                            -webkit-transform: rotate(53deg);
+                            -moz-transform: rotate(53deg);
+                            transform: rotate(53deg);
+                        }
+                    }
+
+                    #rec2315714763 .tn-elem[data-elem-id="1728667535032"] {
+                        z-index: 3;
+                        top: 56px;
+                        ;left: calc(50% - 600px + 558px);
+                        ;width: 200px;
+                        height: auto;
+                    }
+
+                    #rec2315714763 .tn-elem[data-elem-id="1728667535032"] .tn-atom {
+                        border-radius: 0px 0px 0px 0px;
+                        background-position: center center;
+                        border-width: var(--t396-borderwidth,0);
+                        border-style: var(--t396-borderstyle,solid);
+                        border-color: var(--t396-bordercolor,transparent);
+                        transition: background-color var(--t396-speedhover,0s) ease-in-out,color var(--t396-speedhover,0s) ease-in-out,border-color var(--t396-speedhover,0s) ease-in-out,box-shadow var(--t396-shadowshoverspeed,0.2s) ease-in-out;
+                    }
+
+                    #rec2315714763 .tn-elem[data-elem-id="1728667535032"] .tn-atom__img {
+                        border-radius: 0px 0px 0px 0px;
+                        object-position: center center;
+                    }
+
+                    @media screen and (max-width: 1199px) {
+                        #rec2315714763 .tn-elem[data-elem-id="1728667535032"] {
+                            display:table;
+                            height: auto;
+                        }
+                    }
+
+                    @media screen and (max-width: 959px) {
+                        #rec2315714763 .tn-elem[data-elem-id="1728667535032"] {
+                            display:table;
+                            height: auto;
+                        }
+                    }
+
+                    @media screen and (max-width: 639px) {
+                        #rec2315714763 .tn-elem[data-elem-id="1728667535032"] {
+                            display:table;
+                            height: auto;
+                        }
+                    }
+
+                    @media screen and (max-width: 479px) {
+                        #rec2315714763 .tn-elem[data-elem-id="1728667535032"] {
+                            display:table;
+                            top: 3450px;
+                            ;left: calc(50% - 160px + 10px);
+                            ;width: 325px;
+                            height: auto;
+                        }
+                    }
+                </style>
+                <div class='t396'>
+                    <div class="t396__artboard" data-artboard-recid="2315714763" data-artboard-screens="320,480,640,960,1200" data-artboard-height="550" data-artboard-valign="center" data-artboard-upscale="grid" data-artboard-fixed-need-js="y" data-artboard-height-res-320="3958">
+                        <div class="t396__carrier" data-artboard-recid="2315714763"></div>
+                        <div class="t396__filter" data-artboard-recid="2315714763"></div>
+                        <div class='t396__elem tn-elem tn-elem__23157147631728670068128' data-elem-id='1728670068128' data-elem-type='image' data-field-top-value="683" data-field-left-value="-28" data-field-height-value="194" data-field-width-value="200" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value="px" data-field-widthunits-value="px" data-field-filewidth-value="981" data-field-fileheight-value="953" data-field-heightmode-value="hug" data-field-top-res-320-value="3482" data-field-left-res-320-value="90" data-field-height-res-320-value="310" data-field-width-res-320-value="319">
+                            <div class='tn-atom'>
+                                <img class='tn-atom__img t-img' data-original='https://static.tildacdn.pro/tild3135-6366-4862-b061-316564613631/IMG_4639.png' src='https://thb.tildacdn.pro/tild3135-6366-4862-b061-316564613631/-/resize/20x/IMG_4639.png' alt='' imgfield='tn_img_1728670068128'/>
+                            </div>
+                        </div>
+                        <div class='t396__elem tn-elem tn-elem__23157147631727151530299 t-animate' data-elem-id='1727151530299' data-elem-type='image' data-field-top-value="20" data-field-left-value="20" data-field-height-value="162" data-field-width-value="200" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value="px" data-field-widthunits-value="px" data-animate-style="fadeinup" data-animate-duration="3" data-animate-distance="100" data-animate-fix="0.5" data-animate-mobile="y" data-field-filewidth-value="866" data-field-fileheight-value="703" data-field-heightmode-value="hug" data-field-top-res-320-value="365" data-field-left-res-320-value="1" data-field-height-res-320-value="258" data-field-width-res-320-value="318">
+                            <div class='tn-atom'>
+                                <img class='tn-atom__img t-img' data-original='https://static.tildacdn.pro/tild6637-3761-4137-a531-333930303838/______________.png' src='https://thb.tildacdn.pro/tild6637-3761-4137-a531-333930303838/-/resize/20x/______________.png' alt='' imgfield='tn_img_1727151530299'/>
+                            </div>
+                        </div>
+                        <div class='t396__elem tn-elem tn-elem__23157147631727151586838 t-animate' data-elem-id='1727151586838' data-elem-type='text' data-field-top-value="300" data-field-left-value="252" data-field-height-value="224" data-field-width-value="560" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value="px" data-field-widthunits-value="px" data-animate-style="zoomin" data-animate-duration="10" data-animate-scale="0.9" data-animate-fix="0.5" data-animate-mobile="y" data-field-textfit-value="autoheight" data-field-fontsize-value="18" data-field-top-res-320-value="669" data-field-left-res-320-value="-9" data-field-height-res-320-value="252" data-field-width-res-320-value="338">
+                            <div class='tn-atom' field='tn_text_1727151586838'>
+                                Құрметті <br/>
+                                ағайын-туыс, бауырлар,<br/>
+                                құда-жекжат, нағашы-жиен, бөлелер, құрбы-құрдас,<br/>
+                                дос-жарандар, әріптестер, көршілер!<br/>
+                                <br/>
+                                сіз(дер)ді<br/>аяулы қызымыз
+                            </div>
+                        </div>
+                        <div class='t396__elem tn-elem tn-elem__23157147631727151619917 t-animate' data-elem-id='1727151619917' data-elem-type='text' data-field-top-value="300" data-field-left-value="252" data-field-height-value="141" data-field-width-value="560" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value="px" data-field-widthunits-value="px" data-animate-style="zoomin" data-animate-duration="10" data-animate-scale="0.9" data-animate-fix="0.5" data-animate-mobile="y" data-field-textfit-value="autoheight" data-field-fontsize-value="18" data-field-top-res-320-value="1035" data-field-left-res-320-value="-1" data-field-height-res-320-value="140" data-field-width-res-320-value="322">
+                            <div class='tn-atom' field='tn_text_1727151619917'>
+                                <span style="color: rgb(50, 76, 61); font-weight: 400;">ұзату тойына</span>
+                                <br/>
+                                арналған салтанатты<br/>
+                                ақ дастарханымыздың<br/>
+                                қадірлі қонағы<br/>болуға шақырамыз!
+                            </div>
+                        </div>
+                        <div class='t396__elem tn-elem tn-elem__23157147631727151663320' data-elem-id='1727151663320' data-elem-type='image' data-field-top-value="287" data-field-left-value="-225" data-field-height-value="296" data-field-width-value="200" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value="px" data-field-widthunits-value="px" data-field-filewidth-value="956" data-field-fileheight-value="1416" data-field-heightmode-value="hug" data-field-top-res-320-value="1150" data-field-left-res-320-value="150" data-field-height-res-320-value="335" data-field-width-res-320-value="226">
+                            <div class='tn-atom'>
+                                <img class='tn-atom__img t-img' data-original='https://static.tildacdn.pro/tild3864-3630-4436-a633-376432636132/IMG_4634.png' src='https://thb.tildacdn.pro/tild3864-3630-4436-a633-376432636132/-/resize/20x/IMG_4634.png' alt='' imgfield='tn_img_1727151663320'/>
+                            </div>
+                        </div>
+                        <div class='t396__elem tn-elem tn-elem__23157147631727151683154' data-elem-id='1727151683154' data-elem-type='image' data-field-top-value="32" data-field-left-value="507" data-field-height-value="158" data-field-width-value="200" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value="px" data-field-widthunits-value="px" data-field-filewidth-value="1212" data-field-fileheight-value="960" data-field-heightmode-value="hug" data-field-top-res-320-value="1273" data-field-left-res-320-value="250" data-field-height-res-320-value="79" data-field-width-res-320-value="100">
+                            <div class='tn-atom'>
+                                <img class='tn-atom__img t-img' data-original='https://static.tildacdn.pro/tild6136-3837-4733-b730-316532346336/dfacabbcfd088b2f73d8.gif' src='https://thb.tildacdn.pro/tild6136-3837-4733-b730-316532346336/-/resize/20x/dfacabbcfd088b2f73d8.gif' alt='' imgfield='tn_img_1727151683154'/>
+                            </div>
+                        </div>
+                        <div class='t396__elem tn-elem tn-elem__23157147631727151718365 t-animate' data-elem-id='1727151718365' data-elem-type='image' data-field-top-value="20" data-field-left-value="20" data-field-height-value="32" data-field-width-value="200" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value="px" data-field-widthunits-value="px" data-animate-style="fadeinup" data-animate-duration="3" data-animate-distance="100" data-animate-fix="0.5" data-animate-mobile="y" data-field-filewidth-value="560" data-field-fileheight-value="89" data-field-heightmode-value="hug" data-field-top-res-320-value="1456" data-field-left-res-320-value="31" data-field-height-res-320-value="41" data-field-width-res-320-value="259">
+                            <div class='tn-atom'>
+                                <img class='tn-atom__img t-img' data-original='https://static.tildacdn.pro/tild3431-3335-4730-b364-633636643165/__.png' src='https://thb.tildacdn.pro/tild3431-3335-4730-b364-633636643165/-/resize/20x/__.png' alt='' imgfield='tn_img_1727151718365'/>
+                            </div>
+                        </div>
+                        <div class='t396__elem tn-elem tn-elem__23157147631727151734664' data-elem-id='1727151734664' data-elem-type='image' data-field-top-value="334" data-field-left-value="-354" data-field-height-value="200" data-field-width-value="200" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value="px" data-field-widthunits-value="px" data-field-filewidth-value="1680" data-field-fileheight-value="1680" data-field-heightmode-value="hug" data-field-top-res-320-value="1515" data-field-left-res-320-value="-10" data-field-height-res-320-value="341" data-field-width-res-320-value="341">
+                            <div class='tn-atom'>
+                                <img class='tn-atom__img t-img' data-original='https://static.tildacdn.pro/tild3366-3638-4237-b231-396432663462/__26.png' src='https://thb.tildacdn.pro/tild3366-3638-4237-b231-396432663462/-/resize/20x/__26.png' alt='' imgfield='tn_img_1727151734664'/>
+                            </div>
+                        </div>
+                        <div class='t396__elem tn-elem tn-elem__23157147631727151734660 t-animate' data-elem-id='1727151734660' data-elem-type='text' data-field-top-value="300" data-field-left-value="252" data-field-height-value="28" data-field-width-value="560" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value="px" data-field-widthunits-value="px" data-animate-style="zoomin" data-animate-duration="10" data-animate-scale="0.9" data-animate-fix="0.5" data-animate-mobile="y" data-field-textfit-value="autoheight" data-field-fontsize-value="18" data-field-top-res-320-value="1528" data-field-left-res-320-value="-9" data-field-height-res-320-value="36" data-field-width-res-320-value="338" data-field-fontsize-res-320-value="23">
+                            <div class='tn-atom' field='tn_text_1727151734660'>24 маусым 2026 жыл</div>
+                        </div>
+                        <div class='t396__elem tn-elem tn-elem__23157147631727151746325 t-animate' data-elem-id='1727151746325' data-elem-type='text' data-field-top-value="300" data-field-left-value="252" data-field-height-value="56" data-field-width-value="560" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value="px" data-field-widthunits-value="px" data-animate-style="zoomin" data-animate-duration="10" data-animate-scale="0.9" data-animate-fix="0.5" data-animate-mobile="y" data-field-textfit-value="autoheight" data-field-fontsize-value="18" data-field-top-res-320-value="1807" data-field-left-res-320-value="-9" data-field-height-res-320-value="56" data-field-width-res-320-value="338" data-field-fontsize-res-320-value="22">
+                            <div class='tn-atom' field='tn_text_1727151746325'>
+                                сағат 18:00 - де <br/>басталады
+                            </div>
+                        </div>
+                        <div class='t396__elem tn-elem tn-elem__23157147631727151760141 ' data-elem-id='1727151760141' data-elem-type='image' data-field-top-value="355" data-field-left-value="-194" data-field-height-value="200" data-field-width-value="200" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value="px" data-field-widthunits-value="px" data-animate-mobile="y" data-animate-sbs-event="blockintoview" data-animate-sbs-trg="1" data-animate-sbs-trgofst="0" data-animate-sbs-loop="loop" data-animate-sbs-opts="[{'mx':0,'my':0,'sx':1,'sy':1,'op':1,'ro':0,'ti':0,'ea':'0','dt':0},{'mx':0,'my':0,'sx':1.36,'sy':1.36,'op':1,'ro':0,'ti':2300,'ea':'0','dt':0},{'mx':0,'my':0,'sx':1,'sy':1,'op':1,'ro':0,'ti':2300,'ea':'0','dt':0}]" data-field-filewidth-value="256" data-field-fileheight-value="256" data-field-heightmode-value="hug" data-field-top-res-320-value="1692" data-field-left-res-320-value="91" data-field-height-res-320-value="52" data-field-width-res-320-value="52" data-animate-sbs-opts-res-320="[{'mx':0,'my':0,'sx':1,'sy':1,'op':1,'ro':0,'ti':0,'ea':'0','dt':0},{'mx':'0','my':'0','sx':1.36,'sy':1.36,'op':'1','ro':'0','ti':2200,'ea':'0','dt':'0'},{'mx':'0','my':'0','sx':1,'sy':1,'op':'1','ro':'0','ti':2200,'ea':'0','dt':'0'}]">
+                            <div class='tn-atom'>
+                                <img class='tn-atom__img t-img' data-original='https://static.tildacdn.pro/tild6466-6562-4835-b334-653933323166/photo.png' src='https://thb.tildacdn.pro/tild6466-6562-4835-b334-653933323166/-/resize/20x/photo.png' alt='' imgfield='tn_img_1727151760141'/>
+                            </div>
+                        </div>
+                        <div class='t396__elem tn-elem tn-elem__23157147631727152118700' data-elem-id='1727152118700' data-elem-type='image' data-field-top-value="257" data-field-left-value="-171" data-field-height-value="296" data-field-width-value="200" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value="px" data-field-widthunits-value="px" data-field-filewidth-value="956" data-field-fileheight-value="1416" data-field-heightmode-value="hug" data-field-top-res-320-value="2309" data-field-left-res-320-value="-59" data-field-height-res-320-value="355" data-field-width-res-320-value="240">
+                            <div class='tn-atom'>
+                                <img class='tn-atom__img t-img' data-original='https://static.tildacdn.pro/tild3563-3561-4363-a638-666630313735/IMG_4634.png' src='https://thb.tildacdn.pro/tild3563-3561-4363-a638-666630313735/-/resize/20x/IMG_4634.png' alt='' imgfield='tn_img_1727152118700'/>
+                            </div>
+                        </div>
+                        <div class='t396__elem tn-elem tn-elem__23157147631727152148211' data-elem-id='1727152148211' data-elem-type='image' data-field-top-value="46" data-field-left-value="548" data-field-height-value="112" data-field-width-value="200" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value="px" data-field-widthunits-value="px" data-field-filewidth-value="500" data-field-fileheight-value="281" data-field-heightmode-value="hug" data-field-top-res-320-value="2383" data-field-left-res-320-value="25" data-field-height-res-320-value="182" data-field-width-res-320-value="323">
+                            <div class='tn-atom'>
+                                <img class='tn-atom__img t-img' data-original='https://static.tildacdn.pro/tild6539-3232-4236-a130-313061313562/2e93119a6f4a138992c8.gif' src='https://thb.tildacdn.pro/tild6539-3232-4236-a130-313061313562/-/resize/20x/2e93119a6f4a138992c8.gif' alt='' imgfield='tn_img_1727152148211'/>
+                            </div>
+                        </div>
+                        <div class='t396__elem tn-elem tn-elem__23157147631727152199785 t-animate' data-elem-id='1727152199785' data-elem-type='image' data-field-top-value="20" data-field-left-value="20" data-field-height-value="31" data-field-width-value="200" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value="px" data-field-widthunits-value="px" data-animate-style="fadeinup" data-animate-duration="3" data-animate-distance="100" data-animate-fix="0.5" data-animate-mobile="y" data-field-filewidth-value="625" data-field-fileheight-value="96" data-field-heightmode-value="hug" data-field-top-res-320-value="1939" data-field-left-res-320-value="18" data-field-height-res-320-value="44" data-field-width-res-320-value="285">
+                            <div class='tn-atom'>
+                                <img class='tn-atom__img t-img' data-original='https://static.tildacdn.pro/tild6562-3434-4165-b638-323461633862/_-__.png' src='https://thb.tildacdn.pro/tild6562-3434-4165-b638-323461633862/-/resize/20x/_-__.png' alt='' imgfield='tn_img_1727152199785'/>
+                            </div>
+                        </div>
+                        <div class='t396__elem tn-elem tn-elem__23157147631727152227030 t-animate' data-elem-id='1727152227030' data-elem-type='text' data-field-top-value="-228" data-field-left-value="360" data-field-height-value="92" data-field-width-value="560" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value="px" data-field-widthunits-value="px" data-animate-style="fadeinright" data-animate-duration="2" data-animate-distance="100" data-animate-fix="0.5" data-animate-mobile="y" data-field-textfit-value="autoheight" data-field-fontsize-value="15" data-field-top-res-320-value="1993" data-field-left-res-320-value="-16" data-field-height-res-320-value="140" data-field-width-res-320-value="352" data-field-fontsize-res-320-value="20">
+                            <div class='tn-atom' field='tn_text_1727152227030'>
+                                ақтау қаласы,<br/>
+                                Басқұдық,<br/>
+                                <span style="color: rgb(51, 80, 64); font-weight: 400;">"saltanat palace"</span>
+                                <br/>мейрамханасы
+                            </div>
+                        </div>
+                        <div class='t396__elem tn-elem tn-elem__23157147631727152227023 t-animate' data-elem-id='1727152227023' data-elem-type='text' data-field-top-value="-315" data-field-left-value="244" data-field-height-value="46" data-field-width-value="560" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value="px" data-field-widthunits-value="px" data-animate-style="fadeinright" data-animate-duration="2" data-animate-distance="100" data-animate-fix="0.5" data-animate-mobile="y" data-field-textfit-value="autoheight" data-field-fontsize-value="15" data-field-top-res-320-value="2159" data-field-left-res-320-value="-9" data-field-width-res-320-value="338" data-field-fontsize-res-320-value="15">
+                            <div class='tn-atom' field='tn_text_1727152227023'>жетуге ыңғайлы болу үшін төмендегі 2гис сілтемесін қолданыңыз:</div>
+                        </div>
+                        <div class='t396__elem tn-elem tn-elem__23157147631727152227019' data-elem-id='1727152227019' data-elem-type='image' data-field-top-value="64" data-field-left-value="720" data-field-height-value="113" data-field-width-value="200" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value="px" data-field-widthunits-value="px" data-field-filewidth-value="666" data-field-fileheight-value="375" data-field-heightmode-value="hug" data-field-top-res-320-value="2205" data-field-left-res-320-value="60" data-field-height-res-320-value="113">
+                            <a class='tn-atom' href="https://2gis.kz/aktau/geo/70000001041850191">
+                                <img class='tn-atom__img t-img' data-original='https://static.tildacdn.pro/tild3632-3565-4530-b731-303361653463/image-removebg-previ.png' src='https://thb.tildacdn.pro/tild3632-3565-4530-b731-303361653463/-/resize/20x/image-removebg-previ.png' alt='' imgfield='tn_img_1727152227019'/>
+                            </a>
+                        </div>
+                        <div class='t396__elem tn-elem tn-elem__23157147631728667124599 t-animate' data-elem-id='1728667124599' data-elem-type='text' data-field-top-value="20" data-field-left-value="177" data-field-height-value="31" data-field-width-value="560" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value="px" data-field-widthunits-value="px" data-animate-style="zoomin" data-animate-duration="2" data-animate-scale="0.9" data-animate-mobile="y" data-field-textfit-value="autoheight" data-field-fontsize-value="20" data-field-top-res-320-value="930" data-field-left-res-320-value="-120" data-field-height-res-320-value="87" data-field-width-res-320-value="560" data-field-fontsize-res-320-value="61">
+                            <div class='tn-atom' field='tn_text_1728667124599'>Назымның</div>
+                        </div>
+                        <div class='t396__elem tn-elem tn-elem__23157147631779834576716000001 t-animate' data-elem-id='1779834576716000001' data-elem-type='text' data-field-top-value="30" data-field-left-value="187" data-field-height-value="93" data-field-width-value="560" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value="px" data-field-widthunits-value="px" data-animate-style="zoomin" data-animate-duration="2" data-animate-scale="0.9" data-animate-mobile="y" data-field-textfit-value="autoheight" data-field-fontsize-value="20" data-field-top-res-320-value="2590" data-field-left-res-320-value="-120" data-field-height-res-320-value="147" data-field-width-res-320-value="560" data-field-fontsize-res-320-value="50">
+                            <div class='tn-atom' field='tn_text_1779834576716000001'>
+                                <br/>
+                                Той иесі:<br/>Анасы-Эльмира
+                            </div>
+                        </div>
+                        <div class='t396__elem tn-elem tn-elem__23157147631728667506506 t-animate' data-elem-id='1728667506506' data-elem-type='text' data-field-top-value="393" data-field-left-value="230" data-field-height-value="62" data-field-width-value="560" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value="px" data-field-widthunits-value="px" data-animate-style="fadeinup" data-animate-duration="5" data-animate-distance="100" data-animate-mobile="y" data-field-textfit-value="autoheight" data-field-fontsize-value="20" data-field-top-res-320-value="3320" data-field-left-res-320-value="-120" data-field-height-res-320-value="98" data-field-width-res-320-value="560" data-field-fontsize-res-320-value="42">
+                            <div class='tn-atom' field='tn_text_1728667506506'>
+                                <strong style="font-weight: 900;">Тойымыздың қадірлі</strong>
+                                <br/>
+                                <strong style="font-weight: 900;">қонағы болыңыздар!</strong>
+                            </div>
+                        </div>
+                        <div class='t396__elem tn-elem tn-elem__23157147631728667506497' data-elem-id='1728667506497' data-elem-type='form' data-field-top-value="874" data-field-left-value="376" data-field-height-value="280" data-field-width-value="460" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value="px" data-field-widthunits-value="px" data-field-heightmode-value="hug" data-field-top-res-320-value="3005" data-field-left-res-320-value="-10" data-field-width-res-320-value="341" data-field-inputpos-value="v" data-field-inputfontfamily-value="var(--t-text-font,Arial)" data-field-fieldfontfamily-value="var(--t-text-font,Arial)" data-field-inputfontsize-value="20" data-field-inputfontweight-value="300" data-field-inputcolor-value="#000000" data-field-inputbgcolor-value="#ffffff" data-field-inputbordercolor-value="#85ab7b" data-field-inputbordersize-value="1" data-field-inputradius-value="30" data-field-inputheight-value="50" data-field-inputmargbottom-value="20" data-field-inputmargright-value="20" data-field-inputtitlefontsize-value="16" data-field-inputtitlefontweight-value="300" data-field-inputtitlecolor-value="#000000" data-field-inputtitlemargbottom-value="5" data-field-inputelsfontweight-value="400" data-field-inputelsfontsize-value="14" data-field-buttontitle-value="Жіберу" data-field-buttonalign-value="center" data-field-buttoncolor-value="#fff" data-field-buttonbgcolor-value="#456754" data-field-buttonbordercolor-value="#456754" data-field-buttonbordersize-value="1" data-field-buttonradius-value="30" data-field-buttonwidth-value="150" data-field-buttonheight-value="50" data-field-buttonfontfamily-value="var(--t-text-font,Arial)" data-field-buttonfontsize-value="14" data-field-buttonfontweight-value="300" data-field-receivers-value="3139e23a7192d64297782d613baff87d">
+                            <div class='tn-atom tn-atom__form'></div>
+                            <!--googleoff: all-->
+                            <!--noindex-->
+                            <div data-nosnippet="true" class="tn-atom__inputs-wrapp" style="display:none;">
+                                <div class="tn-atom__inputs-data" data-value="[{&quot;lid&quot;:&quot;1728667506497&quot;,&quot;ls&quot;:&quot;10&quot;,&quot;loff&quot;:&quot;&quot;,&quot;li_type&quot;:&quot;nm&quot;,&quot;li_title&quot;:&quot;\u0410\u0442\u044b-\u0436\u04e9\u043d\u0456\u04a3\u0456\u0437 &quot;,&quot;li_req&quot;:&quot;y&quot;,&quot;li_nm&quot;:&quot;Name&quot;},{&quot;lid&quot;:&quot;1728667506498&quot;,&quot;ls&quot;:&quot;20&quot;,&quot;loff&quot;:&quot;&quot;,&quot;li_type&quot;:&quot;rd&quot;,&quot;li_title&quot;:&quot;\u0422\u043e\u0439\u0493\u0430 \u043a\u0435\u043b\u0435 \u0430\u043b\u0430\u0441\u044b\u0437 \u0431\u0430?&quot;,&quot;li_req&quot;:&quot;y&quot;,&quot;li_variants&quot;:&quot;\u0418\u044f, \u04d9\u0440\u0438\u043d\u0435 \u043a\u0435\u043b\u0435\u043c\u0456\u043d\n\u0416\u04b1\u0431\u044b\u043c\u043c\u0435\u043d \u043a\u0435\u043b\u0435\u043c\u0456\u043d\n\u04e8\u043a\u0456\u043d\u0456\u0448\u043a\u0435 \u043e\u0440\u0430\u0439, \u043a\u0435\u043b\u0435 \u0430\u043b\u043c\u0430\u0439\u043c\u044b\u043d&quot;,&quot;li_radcb&quot;:&quot;rb&quot;,&quot;li_nm&quot;:&quot;\u0422\u043e\u0439\u0493\u0430 \u043a\u0435\u043b\u0435 \u0430\u043b\u0430\u0441\u044b\u0437 \u0431\u0430?&quot;}]"></div>
+                                <textarea class="tn-atom__inputs-textarea">[{"lid":"1728667506497","ls":"10","loff":"","li_type":"nm","li_title":"\u0410\u0442\u044b-\u0436\u04e9\u043d\u0456\u04a3\u0456\u0437 ","li_req":"y","li_nm":"Name"},{"lid":"1728667506498","ls":"20","loff":"","li_type":"rd","li_title":"\u0422\u043e\u0439\u0493\u0430 \u043a\u0435\u043b\u0435 \u0430\u043b\u0430\u0441\u044b\u0437 \u0431\u0430?","li_req":"y","li_variants":"\u0418\u044f, \u04d9\u0440\u0438\u043d\u0435 \u043a\u0435\u043b\u0435\u043c\u0456\u043d\n\u0416\u04b1\u0431\u044b\u043c\u043c\u0435\u043d \u043a\u0435\u043b\u0435\u043c\u0456\u043d\n\u04e8\u043a\u0456\u043d\u0456\u0448\u043a\u0435 \u043e\u0440\u0430\u0439, \u043a\u0435\u043b\u0435 \u0430\u043b\u043c\u0430\u0439\u043c\u044b\u043d","li_radcb":"rb","li_nm":"\u0422\u043e\u0439\u0493\u0430 \u043a\u0435\u043b\u0435 \u0430\u043b\u0430\u0441\u044b\u0437 \u0431\u0430?"}]</textarea>
+                            </div>
+                            <!-- Form export deps: https://static.tildacdn.pro/css/tilda-zero-form-errorbox.min.css https://static.tildacdn.pro/css/tilda-zero-form-horizontal.min.css https://static.tildacdn.pro/js/tilda-phone-mask-1.1.min.js https://static.tildacdn.pro/css/tilda-date-picker-1.0.min.css https://static.tildacdn.pro/js/tilda-date-picker-1.0.min.js https://static.tildacdn.pro/js/tilda-calc-1.0.min.js https://static.tildacdn.pro/js/tilda-upwidget-1.1.min.js https://static.tildacdn.pro/js/uploadcare-3.x.full.min.js https://static.tildacdn.pro/js/uploadcare-3.x.min.js https://static.tildacdn.pro/js/tilda-range-1.0.min.js https://static.tildacdn.pro/css/tilda-range-1.0.min.css https://static.tildacdn.pro/js/tilda-img-select-1.0.min.js https://static.tildacdn.pro/css/tilda-img-select-1.0.min.css -->
+                            <!--/noindex-->
+                            <!--googleon: all-->
+                        </div>
+                        <div class='t396__elem tn-elem tn-elem__23157147631728667506492 t-animate' data-elem-id='1728667506492' data-elem-type='text' data-field-top-value="20" data-field-left-value="20" data-field-height-value="93" data-field-width-value="560" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value="px" data-field-widthunits-value="px" data-animate-style="fadeinleft" data-animate-duration="2" data-animate-distance="100" data-animate-fix="0.5" data-animate-mobile="y" data-field-textfit-value="autoheight" data-field-fontsize-value="20" data-field-top-res-320-value="2894" data-field-left-res-320-value="-14" data-field-width-res-320-value="348" data-field-fontsize-res-320-value="17">
+                            <div class='tn-atom' field='tn_text_1728667506492'>
+                                Төмендегі сауалнаманы <br/>толтырып, тойға қатысуыңызды растауыңызды сұраймыз:
+                            </div>
+                        </div>
+                        <div class='t396__elem tn-elem tn-elem__23157147631728667506486 t-animate' data-elem-id='1728667506486' data-elem-type='text' data-field-top-value="50" data-field-left-value="50" data-field-height-value="31" data-field-width-value="560" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value="px" data-field-widthunits-value="px" data-animate-style="fadeindown" data-animate-duration="3" data-animate-distance="100" data-animate-mobile="y" data-field-textfit-value="autoheight" data-field-fontsize-value="20" data-field-top-res-320-value="2807" data-field-left-res-320-value="-32" data-field-width-res-320-value="384" data-field-fontsize-res-320-value="55">
+                            <div class='tn-atom' field='tn_text_1728667506486'>Сауалнама</div>
+                        </div>
+                        <div class='t396__elem tn-elem tn-elem__23157147631728667506480 t-animate' data-elem-id='1728667506480' data-elem-type='text' data-field-top-value="529" data-field-left-value="258" data-field-height-value="217" data-field-width-value="560" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value="px" data-field-widthunits-value="px" data-animate-style="zoomin" data-animate-duration="2" data-animate-scale="0" data-animate-mobile="y" data-field-textfit-value="autoheight" data-field-fontsize-value="20" data-field-top-res-320-value="3828" data-field-left-res-320-value="17" data-field-height-res-320-value="152" data-field-width-res-320-value="286" data-field-fontsize-res-320-value="11">
+                            <div class='tn-atom' field='tn_text_1728667506480'>
+                                Свяжитесь с нами, чтобы заказать <br/>
+                                такой сайт-приглашение<br/>
+                                <br/>
+                                <br/>
+                                <br/>
+                                Все права защищены<br/>© 2026
+                            </div>
+                        </div>
+                        <div class='t396__elem tn-elem tn-elem__23157147631728667506474 t-animate' data-elem-id='1728667506474' data-elem-type='image' data-field-top-value="103" data-field-left-value="0" data-field-height-value="81" data-field-width-value="81" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value="px" data-field-widthunits-value="px" data-animate-style="zoomin" data-animate-duration="2" data-animate-scale="0" data-animate-mobile="y" data-field-filewidth-value="251" data-field-fileheight-value="252" data-field-heightmode-value="hug" data-field-top-res-320-value="3862" data-field-left-res-320-value="189" data-field-height-res-320-value="28" data-field-width-res-320-value="28">
+                            <a class='tn-atom' href="https://www.instagram.com/shakyrtu_biletteri/">
+                                <img class='tn-atom__img t-img' data-original='https://static.tildacdn.pro/tild3332-3034-4465-b636-393861376436/uu.png' src='https://thb.tildacdn.pro/tild3332-3034-4465-b636-393861376436/-/resize/20x/uu.png' alt='' imgfield='tn_img_1728667506474'/>
+                            </a>
+                        </div>
+                        <div class='t396__elem tn-elem tn-elem__23157147631728667506466 t-animate' data-elem-id='1728667506466' data-elem-type='image' data-field-top-value="195" data-field-left-value="107" data-field-height-value="82" data-field-width-value="81" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value="px" data-field-widthunits-value="px" data-animate-style="zoomin" data-animate-duration="2" data-animate-scale="0" data-animate-mobile="y" data-field-filewidth-value="275" data-field-fileheight-value="277" data-field-heightmode-value="hug" data-field-top-res-320-value="3862" data-field-left-res-320-value="108" data-field-height-res-320-value="29" data-field-width-res-320-value="29">
+                            <a class='tn-atom' href="http://wa.me/77081685459">
+                                <img class='tn-atom__img t-img' data-original='https://static.tildacdn.pro/tild6165-6439-4064-b166-643761616164/p.png' src='https://thb.tildacdn.pro/tild6165-6439-4064-b166-643761616164/-/resize/20x/p.png' alt='' imgfield='tn_img_1728667506466'/>
+                            </a>
+                        </div>
+                        <div class='t396__elem tn-elem tn-elem__23157147631728667522319' data-elem-id='1728667522319' data-elem-type='image' data-field-top-value="673" data-field-left-value="-38" data-field-height-value="194" data-field-width-value="200" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value="px" data-field-widthunits-value="px" data-field-filewidth-value="981" data-field-fileheight-value="953" data-field-heightmode-value="hug" data-field-top-res-320-value="13" data-field-left-res-320-value="-110" data-field-height-res-320-value="317" data-field-width-res-320-value="326">
+                            <div class='tn-atom'>
+                                <img class='tn-atom__img t-img' data-original='https://static.tildacdn.pro/tild3135-6366-4862-b061-316564613631/IMG_4639.png' src='https://thb.tildacdn.pro/tild3135-6366-4862-b061-316564613631/-/resize/20x/IMG_4639.png' alt='' imgfield='tn_img_1728667522319'/>
+                            </div>
+                        </div>
+                        <div class='t396__elem tn-elem tn-elem__23157147631728667535032' data-elem-id='1728667535032' data-elem-type='image' data-field-top-value="56" data-field-left-value="558" data-field-height-value="112" data-field-width-value="200" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value="px" data-field-widthunits-value="px" data-field-filewidth-value="500" data-field-fileheight-value="281" data-field-heightmode-value="hug" data-field-top-res-320-value="3450" data-field-left-res-320-value="10" data-field-height-res-320-value="183" data-field-width-res-320-value="325">
+                            <div class='tn-atom'>
+                                <img class='tn-atom__img t-img' data-original='https://static.tildacdn.pro/tild6539-3232-4236-a130-313061313562/2e93119a6f4a138992c8.gif' src='https://thb.tildacdn.pro/tild6539-3232-4236-a130-313061313562/-/resize/20x/2e93119a6f4a138992c8.gif' alt='' imgfield='tn_img_1728667535032'/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <script>
+                    t_onReady(function() {
+                        t_onFuncLoad('t396_init', function() {
+                            t396_init('2315714763');
+                        });
+                    });
+                </script>
+                <!-- /T396 -->
+            </div>
+            <div id="rec2315714773" class="r t-rec t-rec_pt_0" style="padding-top:0px; " data-animationappear="off" data-record-type="131">
+                <!-- T123 -->
+                <div class="t123">
+                    <div class="t-container_100 ">
+                        <div class="t-width t-width_100 ">
+                            <!-- nominify begin -->
+                            <audio id="bg-sound">
+                                <source src="https://dl.dropbox.com/scl/fi/dcgwjt6s21uuc6pf7r9mg/altynaj-tulembetova-yza-tlek_-muzzonas.ru.mp3?rlkey=xtfpgkk1c0hd997j4u5qd8z15&st=w4rr7goh&dl=0">
+                            </audio>
+                            <script>
+                                $(document).ready(function() {
+                                    myAudio = document.getElementById("bg-sound");
+                                    let fadeTime = 300;
+                                    //Врямя смены иконок
+                                    myAudio.volume = 0.4;
+                                    //Задаём громкость
+                                    $(".stopbgmusic").hide();
+                                    $(".playbgmusic").click(function(e) {
+                                        myAudio.play();
+                                        $(this).fadeOut(fadeTime);
+                                        $(".stopbgmusic").fadeIn(fadeTime);
+                                    })
+                                    $(".stopbgmusic").click(function(e) {
+                                        e.preventDefault();
+                                        myAudio.pause();
+                                        $(this).fadeOut(fadeTime);
+                                        $(".playbgmusic").fadeIn(fadeTime);
+                                    });
+                                    $("#bg-sound").on("ended", function() {
+                                        $(".stopbgmusic").fadeOut(fadeTime);
+                                        $(".playbgmusic").fadeIn(fadeTime);
+                                    });
+                                });
+                            </script>
+                            <style>
+                                div[class*="bgmusic"] {
+                                    cursor: pointer;
+                                    z-index: 99 !important;
+                                }
+                            </style>
+                            <!-- nominify end -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="rec2315714783" class="r t-rec" style=" " data-animationappear="off" data-record-type="131">
+                <!-- T123 -->
+                <div class="t123">
+                    <div class="t-container_100 ">
+                        <div class="t-width t-width_100 ">
+                            <!-- nominify begin -->
+                            <!-- https://romanyu.ru/fiksirovannoe-menyu-zeroblock -->
+                            <style>
+                                /* Укажи id блока, который нужно зафиксировать */
+                                #rec802148940 {
+                                    position: fixed;
+                                    top: 0;
+                                    left: 0;
+                                    width: 100%;
+                                    z-index: 9998;
+                                }
+                            </style>
+                            <!-- nominify end -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="rec2315714793" class="r t-rec" style=" " data-animationappear="off" data-record-type="674">
+                <!-- T674 -->
+                <div class="t674">
+                    <div class="t674__cover t674__cover_fixed t674__cover_repeat" id="recorddiv2315714793" itemscope itemtype="http://schema.org/ImageObject">
+                        <div class="t674__cover-carrier t-bgimg" data-original="https://static.tildacdn.pro/tild3963-3734-4237-b666-613337383137/WhatsApp_Image_2025-.jpeg" style="background-image:url(https://thb.tildacdn.pro/tild3963-3734-4237-b666-613337383137/-/resizeb/20x/WhatsApp_Image_2025-.jpeg)"></div>
+                        <meta itemprop="image" content="https://static.tildacdn.pro/tild3963-3734-4237-b666-613337383137/WhatsApp_Image_2025-.jpeg">
+                    </div>
+                    <style>
+                        body {
+                            background-color: #dbdbdb !important;
+                            ;position: relative;
+                            z-index: 0;
+                        }
+
+                        #allrecords {
+                            background-color: transparent !important;
+                        }
+
+                        #rec2315714793 .t674__cover {
+                            display: block;
+                        }
+
+                        #rec2315714793 .t674__cover-carrier {
+                            opacity: 0;
+                        }
+
+                        #rec2315714793 .t674__cover-carrier.loaded {
+                            opacity: 1;
+                        }
+                    </style>
+                </div>
+                <script>
+                    (function() {
+                        var isSafariOnIOS = !!navigator.userAgent.match(/iP(hone|od|ad)/) && navigator.userAgent.match(/WebKit/i) && !navigator.userAgent.match(/CriOS/i) && !navigator.userAgent.match(/FxiOS/i);
+                        if (!isSafariOnIOS)
+                            return;
+                        var recid = 'rec2315714793';
+                        var rec = document.getElementById(recid);
+                        if (!rec)
+                            return;
+                        rec.classList.add('safari');
+                    }
+                    )();
+                </script>
+            </div>
+        </div>
+        <!--/allrecords-->
+        <!-- Tilda copyright. Don't remove this line -->
+        <div class="t-tildalabel " id="tildacopy" data-tilda-sign="7301829#144532143">
+            <a href="https://tilda.cc/" class="t-tildalabel__link">
+                <div class="t-tildalabel__wrapper">
+                    <div class="t-tildalabel__txtleft">Made on </div>
+                    <div class="t-tildalabel__wrapimg">
+                        <img src="https://static.tildacdn.pro/img/tildacopy.png" class="t-tildalabel__img" fetchpriority="low" alt="">
+                    </div>
+                    <div class="t-tildalabel__txtright">Tilda</div>
+                </div>
+            </a>
+        </div>
+        <!-- Stat -->
+        <script type="text/javascript">
+            if (!window.mainTracker) {
+                window.mainTracker = 'tilda';
+            }
+            setTimeout(function() {
+                (function(d, w, k, o, g) {
+                    var n = d.getElementsByTagName(o)[0]
+                      , s = d.createElement(o)
+                      , f = function() {
+                        n.parentNode.insertBefore(s, n);
+                    };
+                    s.type = "text/javascript";
+                    s.async = true;
+                    s.key = k;
+                    s.id = "tildastatscript";
+                    s.src = g;
+                    if (w.opera == "[object Opera]") {
+                        d.addEventListener("DOMContentLoaded", f, false);
+                    } else {
+                        f();
+                    }
+                }
+                )(document, window, 'e47321a2deb0158418d3b567f7010bb7', 'script', 'https://static.tildacdn.pro/js/tilda-stat-1.0.min.js');
+            }, 2000);
+        </script>
+    </body>
+</html>
