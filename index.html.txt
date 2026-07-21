@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qyz Uzatu - Шақыру</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Подключаем красивый шрифт с Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="container">
+        
+        <!-- Шапка с изображениями -->
+        <header class="header">
+            <!-- Замени 'flowers.png' на имя своего файла с картинкой цветов -->
+            <img src="flowers.png" alt="Flowers" class="decor-img">
+            <h2 class="sub-title">QYZ UZATU</h2>
+            <h1 class="main-title">Назерке</h1>
+        </header>
+
+        <!-- Текст приглашения -->
+        <section class="section text-section">
+            <p class="poem">
+                Қызым, асыл гүлім, арайлым,<br>
+                Шаңырақтың кіргізіп тұр шырайын.<br>
+                Сол гүлімнің бағы тек ашылсын,<br>
+                Ақ батамен ұзатайық ағайын!
+            </p>
+            
+            <div class="invitation-text">
+                <h3>ҚҰРМЕТТІ АҒАЙЫН-ТУЫС, БАУЫРЛАР!</h3>
+                <p>Сіздерді аяулы қызымыз <strong>Назеркенің</strong> ұзату тойына арналған салтанатты дастарханымыздың қадірлі қонағы болуға шақырамыз!</p>
+            </div>
+        </section>
+
+        <!-- Календарь (Сентябрь 2026) -->
+        <section class="section calendar-section">
+            <h3 class="section-title">Той салтанаты:</h3>
+            <p class="date-header">18 КӨРКЕУДЕ (СЕНТЯБРЬ) 2026 ЖЫЛ</p>
+            
+            <div class="calendar-grid">
+                <div class="day-name">Дс</div><div class="day-name">Сс</div><div class="day-name">Ср</div>
+                <div class="day-name">Бс</div><div class="day-name">Жм</div><div class="day-name">Сб</div><div class="day-name">Жб</div>
+
+                <!-- Дни месяца (1 сентября 2026 - Вторник) -->
+                <div></div>
+                <div>1</div><div>2</div><div>3</div><div>4</div><div>5</div><div>6</div>
+                <div>7</div><div>8</div><div>9</div><div>10</div><div>11</div><div>12</div><div>13</div>
+                <div>14</div><div>15</div><div>16</div><div>17</div>
+                <div class="active-day">18</div> <!-- Выделенная дата -->
+                <div>19</div><div>20</div>
+                <div>21</div><div>22</div><div>23</div><div>24</div><div>25</div><div>26</div><div>27</div>
+                <div>28</div><div>29</div><div>30</div>
+            </div>
+
+            <p class="time">САҒАТ 18:00 - ДЕ БАСТАЛАДЫ</p>
+        </section>
+
+        <!-- Локация / 2GIS -->
+        <section class="section location-section">
+            <h3 class="section-title">Мекен-жайымыз:</h3>
+            <p>АҚТАУ ҚАЛАСЫ</p>
+            <p class="restaurant-name">"AKTAU PALACE DRAND BALLROOM" MEЙРАМХАНАСЫ</p>
+            
+            <!-- Вставь свою ссылку на 2GIS в href -->
+            <a href="https://2gis.kz/aktau/firm/70000001030696537" target="_blank" class="gis-button">
+                <span>ЖЕТУГЕ ЫҢҒАЙЛЫ БОЛУ ҮШІН 2GIS СІЛТЕМЕСІН ҚОЛДАНЫҢЫЗ</span>
+            </a>
+        </section>
+
+        <!-- Опрос / Сауалнама (RSVP) -->
+        <section class="section rsvp-section">
+            <h3 class="section-title">Сауалнама</h3>
+            <p class="rsvp-desc">Төмендегі сауалнаманы толтырып, тойға қатысуыңызды растауыңызды сұраймыз:</p>
+            
+            <!-- Замени 'YOUR_FORMSPREE_ID' на свой ID из Formspree -->
+            <form action="https://formspree.io/f/YOUR_FORMSPREE_ID" method="POST" class="rsvp-form">
+                <div class="form-group">
+                    <label for="name">АТЫ-ЖӨНІҢІЗ:</label>
+                    <input type="text" id="name" name="name" required placeholder="Есіміңізді жазыңыз">
+                </div>
+
+                <div class="form-group">
+                    <label>ТОЙҒА КЕЛЕ АЛАСЫЗ БА?</label>
+                    
+                    <label class="radio-label">
+                        <input type="radio" name="attendance" value="Иә, әрине келемін" checked>
+                        <span>Иә, әрине келемін</span>
+                    </label>
+
+                    <label class="radio-label">
+                        <input type="radio" name="attendance" value="Жұбыммен келемін">
+                        <span>Жұбыммен келемін</span>
+                    </label>
+
+                    <label class="radio-label">
+                        <input type="radio" name="attendance" value="Өкінішке орай, келе алмаймын">
+                        <span>Өкінішке орай, келе алмаймын</span>
+                    </label>
+                </div>
+
+                <button type="submit" class="submit-btn">ЖІБЕРУ</button>
+            </form>
+        </section>
+
+        <footer class="footer">
+            <p>Тойымыздың қадірлі қонағы болыңыздар!</p>
+        </footer>
+
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,153 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f7f4ee; /* Нежный молочно-бежевый фон */
+    font-family: 'Montserrat', sans-serif;
+    color: #4a4a4a;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 100%;
+    max-width: 480px; /* Эмуляция мобильного экрана */
+    background-color: #fdfbf7;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.05);
+    text-align: center;
+}
+
+/* Картинки и Заголовки */
+.decor-img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.sub-title {
+    font-size: 14px;
+    letter-spacing: 3px;
+    font-weight: 400;
+    color: #7a7a7a;
+}
+
+.main-title {
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+    font-size: 48px;
+    color: #3b5336; /* Нежно-зеленый оттенок */
+    margin-bottom: 20px;
+}
+
+/* Секции */
+.section {
+    margin-bottom: 35px;
+}
+
+.poem {
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.invitation-text h3 {
+    font-size: 13px;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+/* Календарь */
+.calendar-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 8px;
+    margin: 20px 0;
+    font-size: 14px;
+}
+
+.day-name {
+    font-weight: bold;
+    color: #8a8a8a;
+}
+
+.active-day {
+    border: 2px solid #b8915e; /* Золотисто-бежевый кружок */
+    border-radius: 50%;
+    color: #b8915e;
+    font-weight: bold;
+}
+
+/* Кнопка 2GIS */
+.gis-button {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 12px 20px;
+    background-color: #688560;
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    font-size: 11px;
+    letter-spacing: 1px;
+}
+
+/* Форма */
+.rsvp-form {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: transparent;
+}
+
+.radio-label {
+    display: flex;
+    align-items: center;
+    font-weight: normal !important;
+    margin-bottom: 8px;
+    cursor: pointer;
+}
+
+.radio-label input {
+    margin-right: 10px;
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #3b5336;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.footer {
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+    font-size: 20px;
+    margin-top: 30px;
+}
